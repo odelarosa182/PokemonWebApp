@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OfficeOpenXml;
+using PokemonWebApp.Models;
 using System.IO;
 
 namespace PokemonWebApp.Services
@@ -23,11 +24,23 @@ namespace PokemonWebApp.Services
                         .ToList();
                 }
 
+                
+
                 if (!string.IsNullOrWhiteSpace(species))
                 {
-                    allPokemon = allPokemon
-                        .Where(p => p.name.Contains(species.Trim(), StringComparison.OrdinalIgnoreCase))
-                        .ToList();
+                    // Obtener todos los nombres de la cadena evolutiva de la especie seleccionada
+                    var evolutionNames = await pokemonService.GetEvolutionChainPokemonNamesAsync(logger, species);
+
+                    if (evolutionNames.Any())
+                    {
+                        allPokemon = allPokemon
+                            .Where(p => evolutionNames.Contains(p.name, StringComparer.OrdinalIgnoreCase))
+                            .ToList();
+                    }
+                    else
+                    {
+                        allPokemon = new List<Pokemon>(); // si no hay cadena, vacía
+                    }
                 }
                 //Cargo las url de las imagenes de todos los pokemon antes de exportar a excel
                 allPokemon = await pokemonService.setSpritePokemon(logger, allPokemon);

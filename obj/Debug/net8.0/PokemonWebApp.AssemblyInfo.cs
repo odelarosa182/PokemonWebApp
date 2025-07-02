@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cc3b436bfe7f2660a29ae582d1f09ceaa0a14bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76ac795e1c3fbdce3fdbd34522eda55573c09eec")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

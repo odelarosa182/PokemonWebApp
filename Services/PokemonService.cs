@@ -202,5 +202,41 @@ namespace PokemonWebApp.Services
                 return null;
             }
         }
+
+        public async Task<List<string>> GetEvolutionChainPokemonNamesAsync(ILogger _logger, string speciesName)
+        {
+            var species = await GetAllSpeciesAsync(_logger, 200);
+
+            var specie = species.FirstOrDefault(s => s.Name.Equals(speciesName, StringComparison.OrdinalIgnoreCase));
+
+            if (specie?.Evolution_chain == null) return new List<string>();
+
+            var response = await _http.GetAsync(specie.Evolution_chain.Url);
+            response.EnsureSuccessStatusCode();
+
+            var json = await response.Content.ReadAsStringAsync();
+            var chainData = System.Text.Json.JsonSerializer.Deserialize<EvolutionChainData>(json, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+
+            var names = new List<string>();
+            ExtractEvolutionNames(chainData.Chain, names);
+            return names;
+        }
+
+        private void ExtractEvolutionNames(ChainLink node, List<string> names)
+        {
+            if (node?.Species != null)
+                names.Add(node.Species.Name);
+
+            if (node?.Evolves_to != null)
+            {
+                foreach (var child in node.Evolves_to)
+                {
+                    ExtractEvolutionNames(child, names);
+                }
+            }
+        }
     }
 }

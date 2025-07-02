@@ -76,7 +76,19 @@ namespace PokemonWebApp.Controllers
 
             if (!string.IsNullOrWhiteSpace(species))
             {
-                allPokemon = allPokemon.Where(p => p.name.Contains(species.Trim(), StringComparison.OrdinalIgnoreCase)).ToList();
+                // Obtener todos los nombres de la cadena evolutiva de la especie seleccionada
+                var evolutionNames = await _pokemonService.GetEvolutionChainPokemonNamesAsync(_logger, species);
+
+                if (evolutionNames.Any())
+                {
+                    allPokemon = allPokemon
+                        .Where(p => evolutionNames.Contains(p.name, StringComparer.OrdinalIgnoreCase))
+                        .ToList();
+                }
+                else
+                {
+                    allPokemon = new List<Pokemon>(); // si no hay cadena, vacía
+                }
             }
 
             int totalCount = allPokemon.Count;
@@ -130,9 +142,19 @@ namespace PokemonWebApp.Controllers
 
             if (!string.IsNullOrWhiteSpace(species))
             {
-                all = all
-                    .Where(p => p.name.Contains(species.Trim(), StringComparison.OrdinalIgnoreCase))
-                    .ToList();
+                // Obtener todos los nombres de la cadena evolutiva de la especie seleccionada
+                var evolutionNames = await _pokemonService.GetEvolutionChainPokemonNamesAsync(_logger, species);
+
+                if (evolutionNames.Any())
+                {
+                    all = all
+                        .Where(p => evolutionNames.Contains(p.name, StringComparer.OrdinalIgnoreCase))
+                        .ToList();
+                }
+                else
+                {
+                    all = new List<Pokemon>(); // si no hay cadena, vacía
+                }
             }
 
             return Json(new { count = all.Count });

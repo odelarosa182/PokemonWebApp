@@ -102,66 +102,7 @@ namespace PokemonWebApp.Controllers
             return Json(simplified);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> ExportToExcel(string name = "", string species = "")
-        {
-            const int PageSize = 1000; // máximo a exportar (ajustable)
-            try
-            {
-                ExcelPackage.License.SetNonCommercialPersonal("Orlando Ruben De La Rosa Garcia");
-
-                var allPokemon = await _pokemonService.GetAllPokemonAsync(_logger);
-
-
-                if (!string.IsNullOrWhiteSpace(name))
-                {
-                    allPokemon = allPokemon
-                        .Where(p => p.name.Contains(name.Trim(), StringComparison.OrdinalIgnoreCase))
-                        .ToList();
-                }
-
-                if (!string.IsNullOrWhiteSpace(species))
-                {
-                    allPokemon = allPokemon
-                        .Where(p => p.name.Contains(species.Trim(), StringComparison.OrdinalIgnoreCase))
-                        .ToList();
-                }
-                //Cargo las url de las imagenes de todos los pokemon antes de exportar a excel
-                allPokemon = await _pokemonService.setSpritePokemon(_logger, allPokemon);
-
-                var exportList = allPokemon.Take(PageSize).ToList(); // evita exportar miles
-
-                using var package = new ExcelPackage();
-
-                var worksheet = package.Workbook.Worksheets.Add("Pokémon");
-                worksheet.Cells[1, 1].Value = "ID";
-                worksheet.Cells[1, 2].Value = "Nombre";
-                worksheet.Cells[1, 3].Value = "Imagen";
-
-                int row = 2;
-                foreach (var p in allPokemon)
-                {
-                    var id = p.url.Split('/', StringSplitOptions.RemoveEmptyEntries).Last();
-                    worksheet.Cells[row, 1].Value = id;
-                    worksheet.Cells[row, 2].Value = p.name;
-                    worksheet.Cells[row, 3].Value = p.imageUrl;
-
-                    row++;
-                }
-
-                worksheet.Cells.AutoFitColumns();
-
-                var excelBytes = package.GetAsByteArray();
-                var fileName = $"Pokemon-List-{DateTime.Now:yyyyMMddHHmmss}.xlsx";
-
-                return File(excelBytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError("Error al exportar a Excel - {Time} - Error info: {Error}", DateTime.Now, ex.Message);
-                return StatusCode(500, "Error al generar el archivo Excel. Por favor, inténtelo de nuevo más tarde.");
-            }
-        }
+        
 
         [HttpGet]
         public async Task<IActionResult> ExportToExcelFiltered(string name = "", string species = "")

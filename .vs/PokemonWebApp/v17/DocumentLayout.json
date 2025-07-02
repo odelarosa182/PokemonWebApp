@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B61B158B-E5B7-478B-B2AC-F0EA048EF433}|PokemonWebApp.csproj|c:\\users\\orlando\\documents\\examplesvs\\pokemonwebapp\\views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B61B158B-E5B7-478B-B2AC-F0EA048EF433}|PokemonWebApp.csproj|solutionrelative:views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B61B158B-E5B7-478B-B2AC-F0EA048EF433}|PokemonWebApp.csproj|c:\\users\\orlando\\documents\\examplesvs\\pokemonwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B61B158B-E5B7-478B-B2AC-F0EA048EF433}|PokemonWebApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B61B158B-E5B7-478B-B2AC-F0EA048EF433}|PokemonWebApp.csproj|c:\\users\\orlando\\documents\\examplesvs\\pokemonwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B61B158B-E5B7-478B-B2AC-F0EA048EF433}|PokemonWebApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61B158B-E5B7-478B-B2AC-F0EA048EF433}|PokemonWebApp.csproj|c:\\users\\orlando\\documents\\examplesvs\\pokemonwebapp\\views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B61B158B-E5B7-478B-B2AC-F0EA048EF433}|PokemonWebApp.csproj|solutionrelative:views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B61B158B-E5B7-478B-B2AC-F0EA048EF433}|PokemonWebApp.csproj|c:\\users\\orlando\\documents\\examplesvs\\pokemonwebapp\\services\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,8 +78,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T02:31:10.784Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -84,14 +101,14 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAB+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-02T02:15:18.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PokemonController.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Controllers\\PokemonController.cs",
               "RelativeDocumentMoniker": "Controllers\\PokemonController.cs",
@@ -99,12 +116,11 @@
               "RelativeToolTip": "Controllers\\PokemonController.cs",
               "ViewState": "AgIAAOoAAAAAAAAAAAAuwPQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T00:05:34.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T00:05:34.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PokemonService.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Services\\PokemonService.cs",
               "RelativeDocumentMoniker": "Services\\PokemonService.cs",
@@ -112,12 +128,11 @@
               "RelativeToolTip": "Services\\PokemonService.cs",
               "ViewState": "AgIAAJsAAAAAAAAAAAAmwJsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T03:35:33.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T03:35:33.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "pokemonScript.js",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\wwwroot\\js\\pokemonScript.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\pokemonScript.js",
@@ -125,12 +140,11 @@
               "RelativeToolTip": "wwwroot\\js\\pokemonScript.js",
               "ViewState": "AgIAAIUAAAAAAAAAAAAswKQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-01T19:53:26.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T19:53:26.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -138,12 +152,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T01:29:56.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T01:29:56.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ExcelService.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Services\\ExcelService.cs",
               "RelativeDocumentMoniker": "Services\\ExcelService.cs",
@@ -151,12 +164,11 @@
               "RelativeToolTip": "Services\\ExcelService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T00:24:24.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T00:24:24.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EmailReportRequest.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Models\\EmailReportRequest.cs",
               "RelativeDocumentMoniker": "Models\\EmailReportRequest.cs",
@@ -164,12 +176,11 @@
               "RelativeToolTip": "Models\\EmailReportRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T00:23:22.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T00:23:22.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PokemonDesc.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Models\\PokemonDesc.cs",
               "RelativeDocumentMoniker": "Models\\PokemonDesc.cs",
@@ -177,12 +188,11 @@
               "RelativeToolTip": "Models\\PokemonDesc.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T06:40:16.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T06:40:16.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PokemonSpecies.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Models\\PokemonSpecies.cs",
               "RelativeDocumentMoniker": "Models\\PokemonSpecies.cs",
@@ -190,12 +200,11 @@
               "RelativeToolTip": "Models\\PokemonSpecies.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T22:03:30.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T22:03:30.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PokemonListPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Views\\Pokemon\\PokemonListPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Pokemon\\PokemonListPartial.cshtml",
@@ -203,12 +212,11 @@
               "RelativeToolTip": "Views\\Pokemon\\PokemonListPartial.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T19:44:37.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T19:44:37.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Views\\Pokemon\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Pokemon\\Index.cshtml",
@@ -221,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PokemonPageModel.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Models\\PokemonPageModel.cs",
               "RelativeDocumentMoniker": "Models\\PokemonPageModel.cs",
@@ -229,12 +237,11 @@
               "RelativeToolTip": "Models\\PokemonPageModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T06:03:26.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T06:03:26.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PokemonResponse.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Models\\PokemonResponse.cs",
               "RelativeDocumentMoniker": "Models\\PokemonResponse.cs",
@@ -242,12 +249,11 @@
               "RelativeToolTip": "Models\\PokemonResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T04:46:53.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T04:46:53.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Pokemon.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Models\\Pokemon.cs",
               "RelativeDocumentMoniker": "Models\\Pokemon.cs",
@@ -255,12 +261,11 @@
               "RelativeToolTip": "Models\\Pokemon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T00:24:24.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T00:24:24.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -268,12 +273,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T23:35:05.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T23:35:05.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Orlando\\Documents\\ExamplesVS\\PokemonWebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -281,8 +285,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T23:34:50.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T23:34:50.967Z"
             }
           ]
         }

@@ -1,0 +1,71 @@
+﻿@model PokemonPageModel
+
+<h3 class="text-center mt-2 mb-3">Pokémon - Página @Model.CurrentPage</h3>
+
+@if (Model.Pokemons == null || !Model.Pokemons.Any())
+{
+    <div class="col-12 text-center">
+        <div class="alert alert-warning" role="alert">
+            No se encontraron Pokémon con ese nombre.
+        </div>
+    </div>
+}
+else
+{
+    // Mostrar la lista de Pokémon
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle text-center">
+            <thead class="table-light">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Imagen</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model.Pokemons)
+                {
+                    var id = p.url.Split('/', StringSplitOptions.RemoveEmptyEntries).Last();
+
+                    <tr>
+                        <td>@id</td>
+                        <td class="text-capitalize">@p.name</td>
+                        <td>
+                            <img src="@p.imageUrl" alt="@p.name" class="img-fluid" style="max-width: 100px; max-height: 100px;" />
+                        <td>
+                            <a href="#" class="btn btn-sm btn-outline-primary view-details" data-name="@p.name">Ver Detalles</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Paginación -->
+    <nav class="mt-4">
+        <ul class="pagination justify-content-center flex-wrap">
+            @if (Model.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a href="#" class="page-link pagination-link" data-page="@(@Model.CurrentPage - 1)">«</a>
+                </li>
+            }
+
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a href="#" class="page-link pagination-link" data-page="@i">@i</a>
+                </li>
+            }
+
+            @if (Model.CurrentPage < Model.TotalPages)
+            {
+                <li class="page-item">
+                    <a href="#" class="page-link pagination-link" data-page="@(@Model.CurrentPage + 1)">»</a>
+                </li>
+            }
+        </ul>
+    </nav>
+
+}

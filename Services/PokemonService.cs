@@ -18,15 +18,17 @@ namespace PokemonWebApp.Services
         private readonly IMemoryCache _memoryCache;
         private const string allPokemonCacheKey = "all_pokemon_cache";
         private const string allSpeciesCacheKey = "all_species_cache";
+        private readonly ILogger<PokemonService> _logger;
 
 
-        public PokemonService(HttpClient http, IMemoryCache cache)
+        public PokemonService(ILogger<PokemonService> logger, HttpClient http, IMemoryCache cache)
         {
+            _logger = logger;
             _http = http;
             _memoryCache = cache;
         }
 
-        public async Task<List<Pokemon>> GetAllPokemonAsync(ILogger _logger)
+        public async Task<List<Pokemon>> GetAllPokemonAsync()
         {
             _logger.LogInformation("Entro a GetAllPokemonAsync - {Time}", DateTime.Now);
  
@@ -75,7 +77,7 @@ namespace PokemonWebApp.Services
 
         
 
-        public async Task<List<Pokemon>> setSpritePokemon(ILogger _logger,List<Pokemon> listaPokemon)
+        public async Task<List<Pokemon>> setSpritePokemon(List<Pokemon> listaPokemon)
         {
             _logger.LogInformation("Entro a setSpritePokemon - {Time}", DateTime.Now);
 
@@ -114,7 +116,7 @@ namespace PokemonWebApp.Services
             }
         }
 
-        public async Task<List<PokemonSpecies>> GetAllSpeciesAsync(ILogger _logger, int limit)
+        public async Task<List<PokemonSpecies>> GetAllSpeciesAsync(int limit)
         {
             try
             {
@@ -151,7 +153,7 @@ namespace PokemonWebApp.Services
             }
         }
 
-        public async Task<dynamic> getDetails(ILogger _logger, string namePokemon)
+        public async Task<dynamic> getDetails(string namePokemon)
         {
             _logger.LogInformation("Entro a setSpritePokemon - {Time}", DateTime.Now);
 
@@ -203,9 +205,9 @@ namespace PokemonWebApp.Services
             }
         }
 
-        public async Task<List<string>> GetEvolutionChainPokemonNamesAsync(ILogger _logger, string speciesName)
+        public async Task<List<string>> GetEvolutionChainPokemonNamesAsync(string speciesName)
         {
-            var species = await GetAllSpeciesAsync(_logger, 200);
+            var species = await GetAllSpeciesAsync(200);
 
             var specie = species.FirstOrDefault(s => s.Name.Equals(speciesName, StringComparison.OrdinalIgnoreCase));
 

@@ -22,6 +22,7 @@ Log.Logger = new LoggerConfiguration().WriteTo.File("logs/pokeapp.txt", rollingI
 builder.Logging.ClearProviders();
 builder.Logging.AddSerilog();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

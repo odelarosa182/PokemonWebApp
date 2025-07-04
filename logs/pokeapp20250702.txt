@@ -1,0 +1,1267 @@
+2025-07-02 22:56:36.971 -06:00 [INF] User profile is available. Using 'C:\Users\Orlando\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-02 22:56:37.380 -06:00 [INF] Now listening on: https://localhost:7056
+2025-07-02 22:56:37.381 -06:00 [INF] Now listening on: http://localhost:5193
+2025-07-02 22:56:37.421 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 22:56:37.421 -06:00 [INF] Hosting environment: Development
+2025-07-02 22:56:37.421 -06:00 [INF] Content root path: C:\Users\Orlando\Documents\ExamplesVS\PokemonWebApp
+2025-07-02 22:56:40.877 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/ - null null
+2025-07-02 22:56:41.168 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.HomeController.Index (PokemonWebApp)'
+2025-07-02 22:56:41.222 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PokemonWebApp.Controllers.HomeController (PokemonWebApp).
+2025-07-02 22:56:41.235 -06:00 [INF] Executing ViewResult, running view Index.
+2025-07-02 22:56:41.355 -06:00 [INF] Executed ViewResult - view Index executed in 122.6282ms.
+2025-07-02 22:56:41.357 -06:00 [INF] Executed action PokemonWebApp.Controllers.HomeController.Index (PokemonWebApp) in 133.9171ms
+2025-07-02 22:56:41.357 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.HomeController.Index (PokemonWebApp)'
+2025-07-02 22:56:41.365 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/ - 200 null text/html; charset=utf-8 509.308ms
+2025-07-02 22:56:41.428 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-07-02 22:56:41.433 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/PokemonWebApp.styles.css?v=qZo8fDNz9XFBS_8gp8ob0VAE2ZioyUHGZm6d4dFNiLQ - null null
+2025-07-02 22:56:41.433 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-07-02 22:56:41.442 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/lib/jquery/dist/jquery.min.js - null null
+2025-07-02 22:56:41.449 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-02 22:56:41.454 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-07-02 22:56:41.474 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-07-02 22:56:41.487 -06:00 [INF] The file /css/site.css was not modified
+2025-07-02 22:56:41.487 -06:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-07-02 22:56:41.487 -06:00 [INF] The file /PokemonWebApp.styles.css was not modified
+2025-07-02 22:56:41.487 -06:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-07-02 22:56:41.487 -06:00 [INF] The file /js/site.js was not modified
+2025-07-02 22:56:41.487 -06:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-07-02 22:56:41.493 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/_vs/browserLink - null null
+2025-07-02 22:56:41.493 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 65.2576ms
+2025-07-02 22:56:41.493 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 38.9116ms
+2025-07-02 22:56:41.493 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/PokemonWebApp.styles.css?v=qZo8fDNz9XFBS_8gp8ob0VAE2ZioyUHGZm6d4dFNiLQ - 304 null text/css 59.9493ms
+2025-07-02 22:56:41.493 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 18.9663ms
+2025-07-02 22:56:41.493 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/lib/jquery/dist/jquery.min.js - 304 null text/javascript 50.6517ms
+2025-07-02 22:56:41.493 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 59.9471ms
+2025-07-02 22:56:41.518 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 69.0077ms
+2025-07-02 22:56:41.675 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.4622ms
+2025-07-02 22:56:47.690 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon - null null
+2025-07-02 22:56:47.697 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.Index (PokemonWebApp)'
+2025-07-02 22:56:47.714 -06:00 [INF] Route matched with {action = "Index", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Int32) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:56:47.729 -06:00 [INF] Entro a accion Index del controller - "2025-07-02T22:56:47.7298197-06:00"
+2025-07-02 22:56:47.748 -06:00 [INF] Entro a GetAllPokemonAsync - "2025-07-02T22:56:47.7484658-06:00"
+2025-07-02 22:56:47.757 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?limit=100&offset=0
+2025-07-02 22:56:47.760 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?limit=100&offset=0
+2025-07-02 22:56:47.954 -06:00 [INF] Received HTTP response headers after 191.6895ms - 200
+2025-07-02 22:56:47.954 -06:00 [INF] End processing HTTP request after 205.3014ms - 200
+2025-07-02 22:56:48.109 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=100&limit=100
+2025-07-02 22:56:48.109 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=100&limit=100
+2025-07-02 22:56:48.255 -06:00 [INF] Received HTTP response headers after 146.7129ms - 200
+2025-07-02 22:56:48.256 -06:00 [INF] End processing HTTP request after 147.1268ms - 200
+2025-07-02 22:56:48.257 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=200&limit=100
+2025-07-02 22:56:48.257 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=200&limit=100
+2025-07-02 22:56:48.293 -06:00 [INF] Received HTTP response headers after 36.0416ms - 200
+2025-07-02 22:56:48.293 -06:00 [INF] End processing HTTP request after 36.4419ms - 200
+2025-07-02 22:56:48.294 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=300&limit=100
+2025-07-02 22:56:48.294 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=300&limit=100
+2025-07-02 22:56:48.618 -06:00 [INF] Received HTTP response headers after 323.9742ms - 200
+2025-07-02 22:56:48.618 -06:00 [INF] End processing HTTP request after 324.3731ms - 200
+2025-07-02 22:56:48.620 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=400&limit=100
+2025-07-02 22:56:48.620 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=400&limit=100
+2025-07-02 22:56:48.660 -06:00 [INF] Received HTTP response headers after 40.4205ms - 200
+2025-07-02 22:56:48.660 -06:00 [INF] End processing HTTP request after 40.8854ms - 200
+2025-07-02 22:56:48.662 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=500&limit=100
+2025-07-02 22:56:48.662 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=500&limit=100
+2025-07-02 22:56:48.695 -06:00 [INF] Received HTTP response headers after 33.3466ms - 200
+2025-07-02 22:56:48.696 -06:00 [INF] End processing HTTP request after 33.7684ms - 200
+2025-07-02 22:56:48.697 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=600&limit=100
+2025-07-02 22:56:48.697 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=600&limit=100
+2025-07-02 22:56:48.831 -06:00 [INF] Received HTTP response headers after 133.235ms - 200
+2025-07-02 22:56:48.831 -06:00 [INF] End processing HTTP request after 133.8923ms - 200
+2025-07-02 22:56:48.836 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=700&limit=100
+2025-07-02 22:56:48.836 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=700&limit=100
+2025-07-02 22:56:48.877 -06:00 [INF] Received HTTP response headers after 41.0621ms - 200
+2025-07-02 22:56:48.878 -06:00 [INF] End processing HTTP request after 41.5906ms - 200
+2025-07-02 22:56:48.879 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=800&limit=100
+2025-07-02 22:56:48.879 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=800&limit=100
+2025-07-02 22:56:48.913 -06:00 [INF] Received HTTP response headers after 33.8406ms - 200
+2025-07-02 22:56:48.913 -06:00 [INF] End processing HTTP request after 34.4194ms - 200
+2025-07-02 22:56:48.914 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=900&limit=100
+2025-07-02 22:56:48.914 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=900&limit=100
+2025-07-02 22:56:48.956 -06:00 [INF] Received HTTP response headers after 41.276ms - 200
+2025-07-02 22:56:48.956 -06:00 [INF] End processing HTTP request after 42.494ms - 200
+2025-07-02 22:56:48.957 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=1000&limit=100
+2025-07-02 22:56:48.957 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=1000&limit=100
+2025-07-02 22:56:48.999 -06:00 [INF] Received HTTP response headers after 42.4563ms - 200
+2025-07-02 22:56:49.000 -06:00 [INF] End processing HTTP request after 42.7102ms - 200
+2025-07-02 22:56:49.000 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=1100&limit=100
+2025-07-02 22:56:49.000 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=1100&limit=100
+2025-07-02 22:56:49.064 -06:00 [INF] Received HTTP response headers after 63.7282ms - 200
+2025-07-02 22:56:49.064 -06:00 [INF] End processing HTTP request after 64.0987ms - 200
+2025-07-02 22:56:49.069 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=1200&limit=100
+2025-07-02 22:56:49.069 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=1200&limit=100
+2025-07-02 22:56:49.111 -06:00 [INF] Received HTTP response headers after 41.5125ms - 200
+2025-07-02 22:56:49.111 -06:00 [INF] End processing HTTP request after 41.9209ms - 200
+2025-07-02 22:56:49.111 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=1300&limit=2
+2025-07-02 22:56:49.111 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon?offset=1300&limit=2
+2025-07-02 22:56:49.406 -06:00 [INF] Received HTTP response headers after 295.1101ms - 200
+2025-07-02 22:56:49.406 -06:00 [INF] End processing HTTP request after 295.3084ms - 200
+2025-07-02 22:56:49.410 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T22:56:49.4103942-06:00"
+2025-07-02 22:56:49.410 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/bulbasaur
+2025-07-02 22:56:49.410 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/bulbasaur
+2025-07-02 22:56:49.452 -06:00 [INF] Received HTTP response headers after 41.4775ms - 200
+2025-07-02 22:56:49.452 -06:00 [INF] End processing HTTP request after 41.6933ms - 200
+2025-07-02 22:56:49.515 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/ivysaur
+2025-07-02 22:56:49.515 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/ivysaur
+2025-07-02 22:56:49.555 -06:00 [INF] Received HTTP response headers after 40.224ms - 200
+2025-07-02 22:56:49.555 -06:00 [INF] End processing HTTP request after 40.4726ms - 200
+2025-07-02 22:56:49.564 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/venusaur
+2025-07-02 22:56:49.564 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/venusaur
+2025-07-02 22:56:49.599 -06:00 [INF] Received HTTP response headers after 34.0815ms - 200
+2025-07-02 22:56:49.599 -06:00 [INF] End processing HTTP request after 34.307ms - 200
+2025-07-02 22:56:49.608 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/charmander
+2025-07-02 22:56:49.608 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/charmander
+2025-07-02 22:56:49.643 -06:00 [INF] Received HTTP response headers after 34.9499ms - 200
+2025-07-02 22:56:49.643 -06:00 [INF] End processing HTTP request after 35.1747ms - 200
+2025-07-02 22:56:49.654 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/charmeleon
+2025-07-02 22:56:49.654 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/charmeleon
+2025-07-02 22:56:49.687 -06:00 [INF] Received HTTP response headers after 33.28ms - 200
+2025-07-02 22:56:49.687 -06:00 [INF] End processing HTTP request after 33.4602ms - 200
+2025-07-02 22:56:49.695 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/charizard
+2025-07-02 22:56:49.695 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/charizard
+2025-07-02 22:56:49.739 -06:00 [INF] Received HTTP response headers after 44.1203ms - 200
+2025-07-02 22:56:49.739 -06:00 [INF] End processing HTTP request after 44.3751ms - 200
+2025-07-02 22:56:49.753 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/squirtle
+2025-07-02 22:56:49.753 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/squirtle
+2025-07-02 22:56:49.789 -06:00 [INF] Received HTTP response headers after 36.1187ms - 200
+2025-07-02 22:56:49.789 -06:00 [INF] End processing HTTP request after 36.4067ms - 200
+2025-07-02 22:56:49.798 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/wartortle
+2025-07-02 22:56:49.798 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/wartortle
+2025-07-02 22:56:49.834 -06:00 [INF] Received HTTP response headers after 35.6996ms - 200
+2025-07-02 22:56:49.834 -06:00 [INF] End processing HTTP request after 36.4138ms - 200
+2025-07-02 22:56:49.843 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/blastoise
+2025-07-02 22:56:49.843 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/blastoise
+2025-07-02 22:56:49.884 -06:00 [INF] Received HTTP response headers after 41.0174ms - 200
+2025-07-02 22:56:49.884 -06:00 [INF] End processing HTTP request after 41.2334ms - 200
+2025-07-02 22:56:49.892 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/caterpie
+2025-07-02 22:56:49.892 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/caterpie
+2025-07-02 22:56:49.926 -06:00 [INF] Received HTTP response headers after 33.9875ms - 200
+2025-07-02 22:56:49.926 -06:00 [INF] End processing HTTP request after 34.1811ms - 200
+2025-07-02 22:56:49.928 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/metapod
+2025-07-02 22:56:49.928 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/metapod
+2025-07-02 22:56:49.967 -06:00 [INF] Received HTTP response headers after 39.522ms - 200
+2025-07-02 22:56:49.968 -06:00 [INF] End processing HTTP request after 39.7463ms - 200
+2025-07-02 22:56:49.969 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/butterfree
+2025-07-02 22:56:49.969 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/butterfree
+2025-07-02 22:56:50.005 -06:00 [INF] Received HTTP response headers after 36.0722ms - 200
+2025-07-02 22:56:50.005 -06:00 [INF] End processing HTTP request after 36.3203ms - 200
+2025-07-02 22:56:50.011 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/weedle
+2025-07-02 22:56:50.011 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/weedle
+2025-07-02 22:56:50.042 -06:00 [INF] Received HTTP response headers after 30.1806ms - 200
+2025-07-02 22:56:50.042 -06:00 [INF] End processing HTTP request after 30.4427ms - 200
+2025-07-02 22:56:50.042 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/kakuna
+2025-07-02 22:56:50.042 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/kakuna
+2025-07-02 22:56:50.077 -06:00 [INF] Received HTTP response headers after 34.5529ms - 200
+2025-07-02 22:56:50.077 -06:00 [INF] End processing HTTP request after 34.7137ms - 200
+2025-07-02 22:56:50.078 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/beedrill
+2025-07-02 22:56:50.078 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/beedrill
+2025-07-02 22:56:50.113 -06:00 [INF] Received HTTP response headers after 35.2102ms - 200
+2025-07-02 22:56:50.113 -06:00 [INF] End processing HTTP request after 35.3977ms - 200
+2025-07-02 22:56:50.120 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/pidgey
+2025-07-02 22:56:50.120 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/pidgey
+2025-07-02 22:56:50.154 -06:00 [INF] Received HTTP response headers after 33.7866ms - 200
+2025-07-02 22:56:50.154 -06:00 [INF] End processing HTTP request after 33.9748ms - 200
+2025-07-02 22:56:50.162 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/pidgeotto
+2025-07-02 22:56:50.162 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/pidgeotto
+2025-07-02 22:56:50.194 -06:00 [INF] Received HTTP response headers after 32.0365ms - 200
+2025-07-02 22:56:50.194 -06:00 [INF] End processing HTTP request after 32.2891ms - 200
+2025-07-02 22:56:50.200 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/pidgeot
+2025-07-02 22:56:50.200 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/pidgeot
+2025-07-02 22:56:50.237 -06:00 [INF] Received HTTP response headers after 36.5252ms - 200
+2025-07-02 22:56:50.237 -06:00 [INF] End processing HTTP request after 36.7342ms - 200
+2025-07-02 22:56:50.243 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/rattata
+2025-07-02 22:56:50.243 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/rattata
+2025-07-02 22:56:50.276 -06:00 [INF] Received HTTP response headers after 33.0983ms - 200
+2025-07-02 22:56:50.276 -06:00 [INF] End processing HTTP request after 33.2937ms - 200
+2025-07-02 22:56:50.284 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/raticate
+2025-07-02 22:56:50.284 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/raticate
+2025-07-02 22:56:50.318 -06:00 [INF] Received HTTP response headers after 33.311ms - 200
+2025-07-02 22:56:50.318 -06:00 [INF] End processing HTTP request after 33.5129ms - 200
+2025-07-02 22:56:50.330 -06:00 [INF] Executing ViewResult, running view Index.
+2025-07-02 22:56:50.364 -06:00 [INF] Executed ViewResult - view Index executed in 35.2792ms.
+2025-07-02 22:56:50.367 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.Index (PokemonWebApp) in 2652.9511ms
+2025-07-02 22:56:50.367 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.Index (PokemonWebApp)'
+2025-07-02 22:56:50.370 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon - 200 null text/html; charset=utf-8 2680.5752ms
+2025-07-02 22:56:50.434 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-02 22:56:50.437 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/_vs/browserLink - null null
+2025-07-02 22:56:50.437 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/js/pokemonScript.js - null null
+2025-07-02 22:56:50.438 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.1542ms
+2025-07-02 22:56:50.439 -06:00 [INF] The file /js/pokemonScript.js was not modified
+2025-07-02 22:56:50.440 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/js/pokemonScript.js - 304 null text/javascript 3.2635ms
+2025-07-02 22:56:50.456 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.6775ms
+2025-07-02 22:56:50.495 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/GetSpeciesList - null null
+2025-07-02 22:56:50.497 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.GetSpeciesList (PokemonWebApp)'
+2025-07-02 22:56:50.503 -06:00 [INF] Route matched with {action = "GetSpeciesList", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSpeciesList() on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:56:50.505 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species?limit=200
+2025-07-02 22:56:50.506 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species?limit=200
+2025-07-02 22:56:50.799 -06:00 [INF] Received HTTP response headers after 293.5361ms - 200
+2025-07-02 22:56:50.799 -06:00 [INF] End processing HTTP request after 293.8237ms - 200
+2025-07-02 22:56:50.807 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/1/
+2025-07-02 22:56:50.807 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/1/
+2025-07-02 22:56:50.847 -06:00 [INF] Received HTTP response headers after 39.7286ms - 200
+2025-07-02 22:56:50.847 -06:00 [INF] End processing HTTP request after 40.3425ms - 200
+2025-07-02 22:56:50.868 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/2/
+2025-07-02 22:56:50.868 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/2/
+2025-07-02 22:56:50.903 -06:00 [INF] Received HTTP response headers after 35.0959ms - 200
+2025-07-02 22:56:50.903 -06:00 [INF] End processing HTTP request after 35.7389ms - 200
+2025-07-02 22:56:50.907 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/3/
+2025-07-02 22:56:50.907 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/3/
+2025-07-02 22:56:50.941 -06:00 [INF] Received HTTP response headers after 34.6589ms - 200
+2025-07-02 22:56:50.941 -06:00 [INF] End processing HTTP request after 34.9713ms - 200
+2025-07-02 22:56:50.944 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/4/
+2025-07-02 22:56:50.944 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/4/
+2025-07-02 22:56:50.986 -06:00 [INF] Received HTTP response headers after 42.0019ms - 200
+2025-07-02 22:56:50.987 -06:00 [INF] End processing HTTP request after 42.4478ms - 200
+2025-07-02 22:56:50.989 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/5/
+2025-07-02 22:56:50.990 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/5/
+2025-07-02 22:56:51.027 -06:00 [INF] Received HTTP response headers after 37.6167ms - 200
+2025-07-02 22:56:51.028 -06:00 [INF] End processing HTTP request after 38.165ms - 200
+2025-07-02 22:56:51.031 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/6/
+2025-07-02 22:56:51.031 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/6/
+2025-07-02 22:56:51.077 -06:00 [INF] Received HTTP response headers after 45.268ms - 200
+2025-07-02 22:56:51.077 -06:00 [INF] End processing HTTP request after 45.7956ms - 200
+2025-07-02 22:56:51.101 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/7/
+2025-07-02 22:56:51.101 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/7/
+2025-07-02 22:56:51.138 -06:00 [INF] Received HTTP response headers after 36.4455ms - 200
+2025-07-02 22:56:51.138 -06:00 [INF] End processing HTTP request after 36.8254ms - 200
+2025-07-02 22:56:51.145 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/8/
+2025-07-02 22:56:51.145 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/8/
+2025-07-02 22:56:51.181 -06:00 [INF] Received HTTP response headers after 35.1442ms - 200
+2025-07-02 22:56:51.181 -06:00 [INF] End processing HTTP request after 35.409ms - 200
+2025-07-02 22:56:51.184 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/9/
+2025-07-02 22:56:51.184 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/9/
+2025-07-02 22:56:51.222 -06:00 [INF] Received HTTP response headers after 37.8379ms - 200
+2025-07-02 22:56:51.222 -06:00 [INF] End processing HTTP request after 38.2785ms - 200
+2025-07-02 22:56:51.225 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/10/
+2025-07-02 22:56:51.225 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/10/
+2025-07-02 22:56:51.266 -06:00 [INF] Received HTTP response headers after 41.0399ms - 200
+2025-07-02 22:56:51.266 -06:00 [INF] End processing HTTP request after 41.4855ms - 200
+2025-07-02 22:56:51.269 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/11/
+2025-07-02 22:56:51.269 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/11/
+2025-07-02 22:56:51.306 -06:00 [INF] Received HTTP response headers after 36.6031ms - 200
+2025-07-02 22:56:51.306 -06:00 [INF] End processing HTTP request after 37.1425ms - 200
+2025-07-02 22:56:51.309 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/12/
+2025-07-02 22:56:51.309 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/12/
+2025-07-02 22:56:51.352 -06:00 [INF] Received HTTP response headers after 42.7389ms - 200
+2025-07-02 22:56:51.352 -06:00 [INF] End processing HTTP request after 43.081ms - 200
+2025-07-02 22:56:51.353 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/13/
+2025-07-02 22:56:51.353 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/13/
+2025-07-02 22:56:51.388 -06:00 [INF] Received HTTP response headers after 35.1582ms - 200
+2025-07-02 22:56:51.388 -06:00 [INF] End processing HTTP request after 35.3335ms - 200
+2025-07-02 22:56:51.390 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/14/
+2025-07-02 22:56:51.390 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/14/
+2025-07-02 22:56:51.424 -06:00 [INF] Received HTTP response headers after 34.3377ms - 200
+2025-07-02 22:56:51.424 -06:00 [INF] End processing HTTP request after 34.5569ms - 200
+2025-07-02 22:56:51.425 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/15/
+2025-07-02 22:56:51.425 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/15/
+2025-07-02 22:56:51.461 -06:00 [INF] Received HTTP response headers after 35.6207ms - 200
+2025-07-02 22:56:51.461 -06:00 [INF] End processing HTTP request after 35.7782ms - 200
+2025-07-02 22:56:51.463 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/16/
+2025-07-02 22:56:51.463 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/16/
+2025-07-02 22:56:51.496 -06:00 [INF] Received HTTP response headers after 33.0665ms - 200
+2025-07-02 22:56:51.496 -06:00 [INF] End processing HTTP request after 33.3908ms - 200
+2025-07-02 22:56:51.497 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/17/
+2025-07-02 22:56:51.498 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/17/
+2025-07-02 22:56:51.534 -06:00 [INF] Received HTTP response headers after 36.0045ms - 200
+2025-07-02 22:56:51.534 -06:00 [INF] End processing HTTP request after 36.2309ms - 200
+2025-07-02 22:56:51.536 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/18/
+2025-07-02 22:56:51.536 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/18/
+2025-07-02 22:56:51.572 -06:00 [INF] Received HTTP response headers after 35.6698ms - 200
+2025-07-02 22:56:51.572 -06:00 [INF] End processing HTTP request after 35.8639ms - 200
+2025-07-02 22:56:51.572 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/19/
+2025-07-02 22:56:51.572 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/19/
+2025-07-02 22:56:51.604 -06:00 [INF] Received HTTP response headers after 32.2549ms - 200
+2025-07-02 22:56:51.604 -06:00 [INF] End processing HTTP request after 32.3887ms - 200
+2025-07-02 22:56:51.605 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/20/
+2025-07-02 22:56:51.605 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/20/
+2025-07-02 22:56:51.639 -06:00 [INF] Received HTTP response headers after 33.6868ms - 200
+2025-07-02 22:56:51.639 -06:00 [INF] End processing HTTP request after 33.8397ms - 200
+2025-07-02 22:56:51.640 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/21/
+2025-07-02 22:56:51.640 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/21/
+2025-07-02 22:56:51.677 -06:00 [INF] Received HTTP response headers after 37.1444ms - 200
+2025-07-02 22:56:51.677 -06:00 [INF] End processing HTTP request after 37.3208ms - 200
+2025-07-02 22:56:51.678 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/22/
+2025-07-02 22:56:51.678 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/22/
+2025-07-02 22:56:51.710 -06:00 [INF] Received HTTP response headers after 31.9023ms - 200
+2025-07-02 22:56:51.710 -06:00 [INF] End processing HTTP request after 32.0328ms - 200
+2025-07-02 22:56:51.719 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/23/
+2025-07-02 22:56:51.720 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/23/
+2025-07-02 22:56:51.753 -06:00 [INF] Received HTTP response headers after 33.1433ms - 200
+2025-07-02 22:56:51.753 -06:00 [INF] End processing HTTP request after 33.3291ms - 200
+2025-07-02 22:56:51.754 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/24/
+2025-07-02 22:56:51.754 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/24/
+2025-07-02 22:56:51.809 -06:00 [INF] Received HTTP response headers after 54.7184ms - 200
+2025-07-02 22:56:51.809 -06:00 [INF] End processing HTTP request after 55.0161ms - 200
+2025-07-02 22:56:51.815 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/25/
+2025-07-02 22:56:51.815 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/25/
+2025-07-02 22:56:51.849 -06:00 [INF] Received HTTP response headers after 34.3324ms - 200
+2025-07-02 22:56:51.849 -06:00 [INF] End processing HTTP request after 34.743ms - 200
+2025-07-02 22:56:51.852 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/26/
+2025-07-02 22:56:51.852 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/26/
+2025-07-02 22:56:51.888 -06:00 [INF] Received HTTP response headers after 35.8493ms - 200
+2025-07-02 22:56:51.889 -06:00 [INF] End processing HTTP request after 36.2165ms - 200
+2025-07-02 22:56:51.891 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/27/
+2025-07-02 22:56:51.891 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/27/
+2025-07-02 22:56:51.932 -06:00 [INF] Received HTTP response headers after 40.7024ms - 200
+2025-07-02 22:56:51.932 -06:00 [INF] End processing HTTP request after 41.217ms - 200
+2025-07-02 22:56:51.935 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/28/
+2025-07-02 22:56:51.935 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/28/
+2025-07-02 22:56:51.972 -06:00 [INF] Received HTTP response headers after 37.1003ms - 200
+2025-07-02 22:56:51.972 -06:00 [INF] End processing HTTP request after 37.3706ms - 200
+2025-07-02 22:56:51.973 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/29/
+2025-07-02 22:56:51.973 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/29/
+2025-07-02 22:56:52.008 -06:00 [INF] Received HTTP response headers after 34.8889ms - 200
+2025-07-02 22:56:52.008 -06:00 [INF] End processing HTTP request after 35.0465ms - 200
+2025-07-02 22:56:52.010 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/30/
+2025-07-02 22:56:52.010 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/30/
+2025-07-02 22:56:52.042 -06:00 [INF] Received HTTP response headers after 32.4753ms - 200
+2025-07-02 22:56:52.042 -06:00 [INF] End processing HTTP request after 32.6781ms - 200
+2025-07-02 22:56:52.044 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/31/
+2025-07-02 22:56:52.044 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/31/
+2025-07-02 22:56:52.077 -06:00 [INF] Received HTTP response headers after 33.0832ms - 200
+2025-07-02 22:56:52.077 -06:00 [INF] End processing HTTP request after 33.4097ms - 200
+2025-07-02 22:56:52.083 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/32/
+2025-07-02 22:56:52.084 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/32/
+2025-07-02 22:56:52.120 -06:00 [INF] Received HTTP response headers after 35.7659ms - 200
+2025-07-02 22:56:52.120 -06:00 [INF] End processing HTTP request after 36.3646ms - 200
+2025-07-02 22:56:52.120 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/33/
+2025-07-02 22:56:52.120 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/33/
+2025-07-02 22:56:52.158 -06:00 [INF] Received HTTP response headers after 37.5454ms - 200
+2025-07-02 22:56:52.158 -06:00 [INF] End processing HTTP request after 37.7479ms - 200
+2025-07-02 22:56:52.159 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/34/
+2025-07-02 22:56:52.159 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/34/
+2025-07-02 22:56:52.191 -06:00 [INF] Received HTTP response headers after 31.3823ms - 200
+2025-07-02 22:56:52.191 -06:00 [INF] End processing HTTP request after 31.6312ms - 200
+2025-07-02 22:56:52.191 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/35/
+2025-07-02 22:56:52.191 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/35/
+2025-07-02 22:56:52.225 -06:00 [INF] Received HTTP response headers after 33.8804ms - 200
+2025-07-02 22:56:52.225 -06:00 [INF] End processing HTTP request after 34.0199ms - 200
+2025-07-02 22:56:52.227 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/36/
+2025-07-02 22:56:52.227 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/36/
+2025-07-02 22:56:52.261 -06:00 [INF] Received HTTP response headers after 34.3091ms - 200
+2025-07-02 22:56:52.261 -06:00 [INF] End processing HTTP request after 34.4533ms - 200
+2025-07-02 22:56:52.262 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/37/
+2025-07-02 22:56:52.262 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/37/
+2025-07-02 22:56:52.304 -06:00 [INF] Received HTTP response headers after 42.1885ms - 200
+2025-07-02 22:56:52.305 -06:00 [INF] End processing HTTP request after 42.3374ms - 200
+2025-07-02 22:56:52.305 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/38/
+2025-07-02 22:56:52.305 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/38/
+2025-07-02 22:56:52.339 -06:00 [INF] Received HTTP response headers after 34.4016ms - 200
+2025-07-02 22:56:52.340 -06:00 [INF] End processing HTTP request after 34.522ms - 200
+2025-07-02 22:56:52.341 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/39/
+2025-07-02 22:56:52.341 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/39/
+2025-07-02 22:56:52.374 -06:00 [INF] Received HTTP response headers after 33.3704ms - 200
+2025-07-02 22:56:52.374 -06:00 [INF] End processing HTTP request after 33.5237ms - 200
+2025-07-02 22:56:52.390 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/40/
+2025-07-02 22:56:52.390 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/40/
+2025-07-02 22:56:52.424 -06:00 [INF] Received HTTP response headers after 34.5912ms - 200
+2025-07-02 22:56:52.424 -06:00 [INF] End processing HTTP request after 34.7595ms - 200
+2025-07-02 22:56:52.425 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/41/
+2025-07-02 22:56:52.425 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/41/
+2025-07-02 22:56:52.457 -06:00 [INF] Received HTTP response headers after 32.6029ms - 200
+2025-07-02 22:56:52.458 -06:00 [INF] End processing HTTP request after 32.7795ms - 200
+2025-07-02 22:56:52.459 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/42/
+2025-07-02 22:56:52.459 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/42/
+2025-07-02 22:56:52.500 -06:00 [INF] Received HTTP response headers after 40.9534ms - 200
+2025-07-02 22:56:52.500 -06:00 [INF] End processing HTTP request after 41.2685ms - 200
+2025-07-02 22:56:52.502 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/43/
+2025-07-02 22:56:52.502 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/43/
+2025-07-02 22:56:52.536 -06:00 [INF] Received HTTP response headers after 33.3516ms - 200
+2025-07-02 22:56:52.536 -06:00 [INF] End processing HTTP request after 33.6234ms - 200
+2025-07-02 22:56:52.537 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/44/
+2025-07-02 22:56:52.537 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/44/
+2025-07-02 22:56:52.571 -06:00 [INF] Received HTTP response headers after 33.9368ms - 200
+2025-07-02 22:56:52.571 -06:00 [INF] End processing HTTP request after 34.0717ms - 200
+2025-07-02 22:56:52.571 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/45/
+2025-07-02 22:56:52.571 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/45/
+2025-07-02 22:56:52.611 -06:00 [INF] Received HTTP response headers after 39.898ms - 200
+2025-07-02 22:56:52.611 -06:00 [INF] End processing HTTP request after 40.0459ms - 200
+2025-07-02 22:56:52.613 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/46/
+2025-07-02 22:56:52.613 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/46/
+2025-07-02 22:56:52.648 -06:00 [INF] Received HTTP response headers after 35.4678ms - 200
+2025-07-02 22:56:52.648 -06:00 [INF] End processing HTTP request after 35.6834ms - 200
+2025-07-02 22:56:52.649 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/47/
+2025-07-02 22:56:52.649 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/47/
+2025-07-02 22:56:52.681 -06:00 [INF] Received HTTP response headers after 32.1381ms - 200
+2025-07-02 22:56:52.681 -06:00 [INF] End processing HTTP request after 32.3482ms - 200
+2025-07-02 22:56:52.682 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/48/
+2025-07-02 22:56:52.682 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/48/
+2025-07-02 22:56:52.715 -06:00 [INF] Received HTTP response headers after 32.7456ms - 200
+2025-07-02 22:56:52.715 -06:00 [INF] End processing HTTP request after 32.9863ms - 200
+2025-07-02 22:56:52.716 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/49/
+2025-07-02 22:56:52.716 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/49/
+2025-07-02 22:56:52.751 -06:00 [INF] Received HTTP response headers after 34.8011ms - 200
+2025-07-02 22:56:52.751 -06:00 [INF] End processing HTTP request after 35.0924ms - 200
+2025-07-02 22:56:52.752 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/50/
+2025-07-02 22:56:52.752 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/50/
+2025-07-02 22:56:52.788 -06:00 [INF] Received HTTP response headers after 35.4594ms - 200
+2025-07-02 22:56:52.788 -06:00 [INF] End processing HTTP request after 35.6919ms - 200
+2025-07-02 22:56:52.789 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/51/
+2025-07-02 22:56:52.789 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/51/
+2025-07-02 22:56:52.821 -06:00 [INF] Received HTTP response headers after 32.2422ms - 200
+2025-07-02 22:56:52.821 -06:00 [INF] End processing HTTP request after 32.4217ms - 200
+2025-07-02 22:56:52.823 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/52/
+2025-07-02 22:56:52.823 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/52/
+2025-07-02 22:56:52.855 -06:00 [INF] Received HTTP response headers after 31.4626ms - 200
+2025-07-02 22:56:52.855 -06:00 [INF] End processing HTTP request after 31.637ms - 200
+2025-07-02 22:56:52.856 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/53/
+2025-07-02 22:56:52.856 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/53/
+2025-07-02 22:56:52.890 -06:00 [INF] Received HTTP response headers after 33.8532ms - 200
+2025-07-02 22:56:52.890 -06:00 [INF] End processing HTTP request after 34.1454ms - 200
+2025-07-02 22:56:52.892 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/54/
+2025-07-02 22:56:52.892 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/54/
+2025-07-02 22:56:52.926 -06:00 [INF] Received HTTP response headers after 34.1175ms - 200
+2025-07-02 22:56:52.926 -06:00 [INF] End processing HTTP request after 34.4923ms - 200
+2025-07-02 22:56:52.931 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/55/
+2025-07-02 22:56:52.931 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/55/
+2025-07-02 22:56:52.966 -06:00 [INF] Received HTTP response headers after 35.0402ms - 200
+2025-07-02 22:56:52.966 -06:00 [INF] End processing HTTP request after 35.3873ms - 200
+2025-07-02 22:56:52.967 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/56/
+2025-07-02 22:56:52.967 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/56/
+2025-07-02 22:56:52.999 -06:00 [INF] Received HTTP response headers after 32.5727ms - 200
+2025-07-02 22:56:52.999 -06:00 [INF] End processing HTTP request after 32.7433ms - 200
+2025-07-02 22:56:53.002 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/57/
+2025-07-02 22:56:53.002 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/57/
+2025-07-02 22:56:53.040 -06:00 [INF] Received HTTP response headers after 38.8135ms - 200
+2025-07-02 22:56:53.041 -06:00 [INF] End processing HTTP request after 39.015ms - 200
+2025-07-02 22:56:53.041 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/58/
+2025-07-02 22:56:53.041 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/58/
+2025-07-02 22:56:53.074 -06:00 [INF] Received HTTP response headers after 32.7688ms - 200
+2025-07-02 22:56:53.074 -06:00 [INF] End processing HTTP request after 32.9829ms - 200
+2025-07-02 22:56:53.076 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/59/
+2025-07-02 22:56:53.076 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/59/
+2025-07-02 22:56:53.109 -06:00 [INF] Received HTTP response headers after 32.7317ms - 200
+2025-07-02 22:56:53.109 -06:00 [INF] End processing HTTP request after 32.9156ms - 200
+2025-07-02 22:56:53.111 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/60/
+2025-07-02 22:56:53.111 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/60/
+2025-07-02 22:56:53.147 -06:00 [INF] Received HTTP response headers after 36.226ms - 200
+2025-07-02 22:56:53.148 -06:00 [INF] End processing HTTP request after 36.606ms - 200
+2025-07-02 22:56:53.150 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/61/
+2025-07-02 22:56:53.151 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/61/
+2025-07-02 22:56:53.185 -06:00 [INF] Received HTTP response headers after 33.8214ms - 200
+2025-07-02 22:56:53.185 -06:00 [INF] End processing HTTP request after 34.4603ms - 200
+2025-07-02 22:56:53.186 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/62/
+2025-07-02 22:56:53.186 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/62/
+2025-07-02 22:56:53.219 -06:00 [INF] Received HTTP response headers after 33.1591ms - 200
+2025-07-02 22:56:53.219 -06:00 [INF] End processing HTTP request after 33.333ms - 200
+2025-07-02 22:56:53.221 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/63/
+2025-07-02 22:56:53.221 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/63/
+2025-07-02 22:56:53.261 -06:00 [INF] Received HTTP response headers after 40.2642ms - 200
+2025-07-02 22:56:53.261 -06:00 [INF] End processing HTTP request after 40.5476ms - 200
+2025-07-02 22:56:53.262 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/64/
+2025-07-02 22:56:53.262 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/64/
+2025-07-02 22:56:53.295 -06:00 [INF] Received HTTP response headers after 33.1513ms - 200
+2025-07-02 22:56:53.295 -06:00 [INF] End processing HTTP request after 33.3781ms - 200
+2025-07-02 22:56:53.296 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/65/
+2025-07-02 22:56:53.296 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/65/
+2025-07-02 22:56:53.328 -06:00 [INF] Received HTTP response headers after 32.3583ms - 200
+2025-07-02 22:56:53.328 -06:00 [INF] End processing HTTP request after 32.4892ms - 200
+2025-07-02 22:56:53.330 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/66/
+2025-07-02 22:56:53.330 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/66/
+2025-07-02 22:56:53.365 -06:00 [INF] Received HTTP response headers after 35.3874ms - 200
+2025-07-02 22:56:53.366 -06:00 [INF] End processing HTTP request after 35.5458ms - 200
+2025-07-02 22:56:53.367 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/67/
+2025-07-02 22:56:53.367 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/67/
+2025-07-02 22:56:53.399 -06:00 [INF] Received HTTP response headers after 31.7314ms - 200
+2025-07-02 22:56:53.399 -06:00 [INF] End processing HTTP request after 31.8989ms - 200
+2025-07-02 22:56:53.401 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/68/
+2025-07-02 22:56:53.401 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/68/
+2025-07-02 22:56:53.444 -06:00 [INF] Received HTTP response headers after 43.4529ms - 200
+2025-07-02 22:56:53.444 -06:00 [INF] End processing HTTP request after 43.6218ms - 200
+2025-07-02 22:56:53.446 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/69/
+2025-07-02 22:56:53.446 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/69/
+2025-07-02 22:56:53.478 -06:00 [INF] Received HTTP response headers after 32.1656ms - 200
+2025-07-02 22:56:53.478 -06:00 [INF] End processing HTTP request after 32.3641ms - 200
+2025-07-02 22:56:53.480 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/70/
+2025-07-02 22:56:53.480 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/70/
+2025-07-02 22:56:53.513 -06:00 [INF] Received HTTP response headers after 33.164ms - 200
+2025-07-02 22:56:53.513 -06:00 [INF] End processing HTTP request after 33.3628ms - 200
+2025-07-02 22:56:53.515 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/71/
+2025-07-02 22:56:53.515 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/71/
+2025-07-02 22:56:53.568 -06:00 [INF] Received HTTP response headers after 53.2736ms - 200
+2025-07-02 22:56:53.568 -06:00 [INF] End processing HTTP request after 53.5884ms - 200
+2025-07-02 22:56:53.570 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/72/
+2025-07-02 22:56:53.570 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/72/
+2025-07-02 22:56:53.607 -06:00 [INF] Received HTTP response headers after 37.4263ms - 200
+2025-07-02 22:56:53.608 -06:00 [INF] End processing HTTP request after 37.7628ms - 200
+2025-07-02 22:56:53.609 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/73/
+2025-07-02 22:56:53.609 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/73/
+2025-07-02 22:56:53.643 -06:00 [INF] Received HTTP response headers after 33.8012ms - 200
+2025-07-02 22:56:53.643 -06:00 [INF] End processing HTTP request after 34.0853ms - 200
+2025-07-02 22:56:53.646 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/74/
+2025-07-02 22:56:53.646 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/74/
+2025-07-02 22:56:53.688 -06:00 [INF] Received HTTP response headers after 42.0131ms - 200
+2025-07-02 22:56:53.688 -06:00 [INF] End processing HTTP request after 42.3842ms - 200
+2025-07-02 22:56:53.691 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/75/
+2025-07-02 22:56:53.691 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/75/
+2025-07-02 22:56:53.729 -06:00 [INF] Received HTTP response headers after 36.9834ms - 200
+2025-07-02 22:56:53.729 -06:00 [INF] End processing HTTP request after 37.3873ms - 200
+2025-07-02 22:56:53.730 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/76/
+2025-07-02 22:56:53.730 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/76/
+2025-07-02 22:56:53.766 -06:00 [INF] Received HTTP response headers after 35.5793ms - 200
+2025-07-02 22:56:53.766 -06:00 [INF] End processing HTTP request after 35.7203ms - 200
+2025-07-02 22:56:53.766 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/77/
+2025-07-02 22:56:53.766 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/77/
+2025-07-02 22:56:53.801 -06:00 [INF] Received HTTP response headers after 35.0254ms - 200
+2025-07-02 22:56:53.801 -06:00 [INF] End processing HTTP request after 35.1714ms - 200
+2025-07-02 22:56:53.802 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/78/
+2025-07-02 22:56:53.802 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/78/
+2025-07-02 22:56:53.833 -06:00 [INF] Received HTTP response headers after 31.3738ms - 200
+2025-07-02 22:56:53.833 -06:00 [INF] End processing HTTP request after 31.5199ms - 200
+2025-07-02 22:56:53.835 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/79/
+2025-07-02 22:56:53.835 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/79/
+2025-07-02 22:56:53.866 -06:00 [INF] Received HTTP response headers after 31.6569ms - 200
+2025-07-02 22:56:53.866 -06:00 [INF] End processing HTTP request after 31.8328ms - 200
+2025-07-02 22:56:53.868 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/80/
+2025-07-02 22:56:53.868 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/80/
+2025-07-02 22:56:53.906 -06:00 [INF] Received HTTP response headers after 38.0603ms - 200
+2025-07-02 22:56:53.906 -06:00 [INF] End processing HTTP request after 38.2688ms - 200
+2025-07-02 22:56:53.907 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/81/
+2025-07-02 22:56:53.907 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/81/
+2025-07-02 22:56:53.942 -06:00 [INF] Received HTTP response headers after 34.587ms - 200
+2025-07-02 22:56:53.942 -06:00 [INF] End processing HTTP request after 34.7286ms - 200
+2025-07-02 22:56:53.943 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/82/
+2025-07-02 22:56:53.943 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/82/
+2025-07-02 22:56:53.977 -06:00 [INF] Received HTTP response headers after 33.8687ms - 200
+2025-07-02 22:56:53.978 -06:00 [INF] End processing HTTP request after 34.1104ms - 200
+2025-07-02 22:56:53.980 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/83/
+2025-07-02 22:56:53.981 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/83/
+2025-07-02 22:56:54.014 -06:00 [INF] Received HTTP response headers after 33.344ms - 200
+2025-07-02 22:56:54.014 -06:00 [INF] End processing HTTP request after 33.5356ms - 200
+2025-07-02 22:56:54.015 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/84/
+2025-07-02 22:56:54.016 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/84/
+2025-07-02 22:56:54.050 -06:00 [INF] Received HTTP response headers after 34.8726ms - 200
+2025-07-02 22:56:54.050 -06:00 [INF] End processing HTTP request after 35.0231ms - 200
+2025-07-02 22:56:54.051 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/85/
+2025-07-02 22:56:54.051 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/85/
+2025-07-02 22:56:54.083 -06:00 [INF] Received HTTP response headers after 32.1443ms - 200
+2025-07-02 22:56:54.083 -06:00 [INF] End processing HTTP request after 32.433ms - 200
+2025-07-02 22:56:54.086 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/86/
+2025-07-02 22:56:54.086 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/86/
+2025-07-02 22:56:54.122 -06:00 [INF] Received HTTP response headers after 36.0411ms - 200
+2025-07-02 22:56:54.122 -06:00 [INF] End processing HTTP request after 36.2394ms - 200
+2025-07-02 22:56:54.123 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/87/
+2025-07-02 22:56:54.123 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/87/
+2025-07-02 22:56:54.161 -06:00 [INF] Received HTTP response headers after 37.9691ms - 200
+2025-07-02 22:56:54.161 -06:00 [INF] End processing HTTP request after 38.2934ms - 200
+2025-07-02 22:56:54.163 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/88/
+2025-07-02 22:56:54.163 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/88/
+2025-07-02 22:56:54.198 -06:00 [INF] Received HTTP response headers after 34.7656ms - 200
+2025-07-02 22:56:54.198 -06:00 [INF] End processing HTTP request after 35.1514ms - 200
+2025-07-02 22:56:54.201 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/89/
+2025-07-02 22:56:54.201 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/89/
+2025-07-02 22:56:54.236 -06:00 [INF] Received HTTP response headers after 35.3167ms - 200
+2025-07-02 22:56:54.236 -06:00 [INF] End processing HTTP request after 35.4944ms - 200
+2025-07-02 22:56:54.237 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/90/
+2025-07-02 22:56:54.237 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/90/
+2025-07-02 22:56:54.270 -06:00 [INF] Received HTTP response headers after 32.6794ms - 200
+2025-07-02 22:56:54.270 -06:00 [INF] End processing HTTP request after 32.7999ms - 200
+2025-07-02 22:56:54.271 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/91/
+2025-07-02 22:56:54.271 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/91/
+2025-07-02 22:56:54.307 -06:00 [INF] Received HTTP response headers after 36.0414ms - 200
+2025-07-02 22:56:54.307 -06:00 [INF] End processing HTTP request after 36.2278ms - 200
+2025-07-02 22:56:54.309 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/92/
+2025-07-02 22:56:54.309 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/92/
+2025-07-02 22:56:54.345 -06:00 [INF] Received HTTP response headers after 35.6979ms - 200
+2025-07-02 22:56:54.345 -06:00 [INF] End processing HTTP request after 35.8977ms - 200
+2025-07-02 22:56:54.345 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/93/
+2025-07-02 22:56:54.345 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/93/
+2025-07-02 22:56:54.382 -06:00 [INF] Received HTTP response headers after 36.4246ms - 200
+2025-07-02 22:56:54.382 -06:00 [INF] End processing HTTP request after 36.7163ms - 200
+2025-07-02 22:56:54.386 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/94/
+2025-07-02 22:56:54.387 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/94/
+2025-07-02 22:56:54.426 -06:00 [INF] Received HTTP response headers after 39.0057ms - 200
+2025-07-02 22:56:54.426 -06:00 [INF] End processing HTTP request after 39.338ms - 200
+2025-07-02 22:56:54.426 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/95/
+2025-07-02 22:56:54.427 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/95/
+2025-07-02 22:56:54.459 -06:00 [INF] Received HTTP response headers after 32.7003ms - 200
+2025-07-02 22:56:54.459 -06:00 [INF] End processing HTTP request after 32.9096ms - 200
+2025-07-02 22:56:54.460 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/96/
+2025-07-02 22:56:54.460 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/96/
+2025-07-02 22:56:54.492 -06:00 [INF] Received HTTP response headers after 31.9771ms - 200
+2025-07-02 22:56:54.492 -06:00 [INF] End processing HTTP request after 32.2924ms - 200
+2025-07-02 22:56:54.494 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/97/
+2025-07-02 22:56:54.494 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/97/
+2025-07-02 22:56:54.534 -06:00 [INF] Received HTTP response headers after 39.1542ms - 200
+2025-07-02 22:56:54.534 -06:00 [INF] End processing HTTP request after 39.8294ms - 200
+2025-07-02 22:56:54.536 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/98/
+2025-07-02 22:56:54.536 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/98/
+2025-07-02 22:56:54.570 -06:00 [INF] Received HTTP response headers after 34.3995ms - 200
+2025-07-02 22:56:54.570 -06:00 [INF] End processing HTTP request after 34.733ms - 200
+2025-07-02 22:56:54.571 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/99/
+2025-07-02 22:56:54.571 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/99/
+2025-07-02 22:56:54.602 -06:00 [INF] Received HTTP response headers after 31.594ms - 200
+2025-07-02 22:56:54.602 -06:00 [INF] End processing HTTP request after 31.7722ms - 200
+2025-07-02 22:56:54.605 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/100/
+2025-07-02 22:56:54.605 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/100/
+2025-07-02 22:56:54.639 -06:00 [INF] Received HTTP response headers after 33.9046ms - 200
+2025-07-02 22:56:54.639 -06:00 [INF] End processing HTTP request after 34.1005ms - 200
+2025-07-02 22:56:54.639 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/101/
+2025-07-02 22:56:54.639 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/101/
+2025-07-02 22:56:54.679 -06:00 [INF] Received HTTP response headers after 39.7906ms - 200
+2025-07-02 22:56:54.679 -06:00 [INF] End processing HTTP request after 39.9701ms - 200
+2025-07-02 22:56:54.680 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/102/
+2025-07-02 22:56:54.680 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/102/
+2025-07-02 22:56:54.713 -06:00 [INF] Received HTTP response headers after 33.2684ms - 200
+2025-07-02 22:56:54.713 -06:00 [INF] End processing HTTP request after 33.5803ms - 200
+2025-07-02 22:56:54.719 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/103/
+2025-07-02 22:56:54.719 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/103/
+2025-07-02 22:56:54.755 -06:00 [INF] Received HTTP response headers after 36.2549ms - 200
+2025-07-02 22:56:54.755 -06:00 [INF] End processing HTTP request after 36.6625ms - 200
+2025-07-02 22:56:54.757 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/104/
+2025-07-02 22:56:54.757 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/104/
+2025-07-02 22:56:54.791 -06:00 [INF] Received HTTP response headers after 33.5713ms - 200
+2025-07-02 22:56:54.791 -06:00 [INF] End processing HTTP request after 33.7477ms - 200
+2025-07-02 22:56:54.792 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/105/
+2025-07-02 22:56:54.792 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/105/
+2025-07-02 22:56:54.834 -06:00 [INF] Received HTTP response headers after 42.1717ms - 200
+2025-07-02 22:56:54.834 -06:00 [INF] End processing HTTP request after 42.4474ms - 200
+2025-07-02 22:56:54.837 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/106/
+2025-07-02 22:56:54.837 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/106/
+2025-07-02 22:56:54.873 -06:00 [INF] Received HTTP response headers after 35.578ms - 200
+2025-07-02 22:56:54.873 -06:00 [INF] End processing HTTP request after 36.1439ms - 200
+2025-07-02 22:56:54.875 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/107/
+2025-07-02 22:56:54.875 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/107/
+2025-07-02 22:56:54.918 -06:00 [INF] Received HTTP response headers after 42.2734ms - 200
+2025-07-02 22:56:54.918 -06:00 [INF] End processing HTTP request after 42.8548ms - 200
+2025-07-02 22:56:54.920 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/108/
+2025-07-02 22:56:54.920 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/108/
+2025-07-02 22:56:54.968 -06:00 [INF] Received HTTP response headers after 47.6041ms - 200
+2025-07-02 22:56:54.968 -06:00 [INF] End processing HTTP request after 48.396ms - 200
+2025-07-02 22:56:54.971 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/109/
+2025-07-02 22:56:54.971 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/109/
+2025-07-02 22:56:55.007 -06:00 [INF] Received HTTP response headers after 35.8621ms - 200
+2025-07-02 22:56:55.007 -06:00 [INF] End processing HTTP request after 36.4267ms - 200
+2025-07-02 22:56:55.010 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/110/
+2025-07-02 22:56:55.011 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/110/
+2025-07-02 22:56:55.047 -06:00 [INF] Received HTTP response headers after 36.508ms - 200
+2025-07-02 22:56:55.048 -06:00 [INF] End processing HTTP request after 37.4489ms - 200
+2025-07-02 22:56:55.054 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/111/
+2025-07-02 22:56:55.054 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/111/
+2025-07-02 22:56:55.092 -06:00 [INF] Received HTTP response headers after 37.8335ms - 200
+2025-07-02 22:56:55.092 -06:00 [INF] End processing HTTP request after 38.3625ms - 200
+2025-07-02 22:56:55.095 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/112/
+2025-07-02 22:56:55.095 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/112/
+2025-07-02 22:56:55.130 -06:00 [INF] Received HTTP response headers after 34.434ms - 200
+2025-07-02 22:56:55.130 -06:00 [INF] End processing HTTP request after 35.0533ms - 200
+2025-07-02 22:56:55.133 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/113/
+2025-07-02 22:56:55.134 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/113/
+2025-07-02 22:56:55.170 -06:00 [INF] Received HTTP response headers after 36.5898ms - 200
+2025-07-02 22:56:55.170 -06:00 [INF] End processing HTTP request after 37.029ms - 200
+2025-07-02 22:56:55.172 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/114/
+2025-07-02 22:56:55.172 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/114/
+2025-07-02 22:56:55.206 -06:00 [INF] Received HTTP response headers after 33.9258ms - 200
+2025-07-02 22:56:55.206 -06:00 [INF] End processing HTTP request after 34.2099ms - 200
+2025-07-02 22:56:55.207 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/115/
+2025-07-02 22:56:55.207 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/115/
+2025-07-02 22:56:55.245 -06:00 [INF] Received HTTP response headers after 37.7493ms - 200
+2025-07-02 22:56:55.245 -06:00 [INF] End processing HTTP request after 38.2194ms - 200
+2025-07-02 22:56:55.247 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/116/
+2025-07-02 22:56:55.247 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/116/
+2025-07-02 22:56:55.281 -06:00 [INF] Received HTTP response headers after 33.5071ms - 200
+2025-07-02 22:56:55.281 -06:00 [INF] End processing HTTP request after 33.8502ms - 200
+2025-07-02 22:56:55.282 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/117/
+2025-07-02 22:56:55.282 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/117/
+2025-07-02 22:56:55.317 -06:00 [INF] Received HTTP response headers after 34.8501ms - 200
+2025-07-02 22:56:55.317 -06:00 [INF] End processing HTTP request after 35.1331ms - 200
+2025-07-02 22:56:55.318 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/118/
+2025-07-02 22:56:55.318 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/118/
+2025-07-02 22:56:55.350 -06:00 [INF] Received HTTP response headers after 31.3359ms - 200
+2025-07-02 22:56:55.350 -06:00 [INF] End processing HTTP request after 31.4707ms - 200
+2025-07-02 22:56:55.351 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/119/
+2025-07-02 22:56:55.351 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/119/
+2025-07-02 22:56:55.384 -06:00 [INF] Received HTTP response headers after 32.9634ms - 200
+2025-07-02 22:56:55.384 -06:00 [INF] End processing HTTP request after 33.1282ms - 200
+2025-07-02 22:56:55.385 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/120/
+2025-07-02 22:56:55.385 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/120/
+2025-07-02 22:56:55.420 -06:00 [INF] Received HTTP response headers after 34.9754ms - 200
+2025-07-02 22:56:55.420 -06:00 [INF] End processing HTTP request after 35.1371ms - 200
+2025-07-02 22:56:55.422 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/121/
+2025-07-02 22:56:55.422 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/121/
+2025-07-02 22:56:55.455 -06:00 [INF] Received HTTP response headers after 33.0906ms - 200
+2025-07-02 22:56:55.455 -06:00 [INF] End processing HTTP request after 33.2805ms - 200
+2025-07-02 22:56:55.457 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/122/
+2025-07-02 22:56:55.457 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/122/
+2025-07-02 22:56:55.489 -06:00 [INF] Received HTTP response headers after 32.2002ms - 200
+2025-07-02 22:56:55.489 -06:00 [INF] End processing HTTP request after 32.3495ms - 200
+2025-07-02 22:56:55.490 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/123/
+2025-07-02 22:56:55.490 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/123/
+2025-07-02 22:56:55.525 -06:00 [INF] Received HTTP response headers after 34.779ms - 200
+2025-07-02 22:56:55.525 -06:00 [INF] End processing HTTP request after 34.9191ms - 200
+2025-07-02 22:56:55.527 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/124/
+2025-07-02 22:56:55.527 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/124/
+2025-07-02 22:56:55.564 -06:00 [INF] Received HTTP response headers after 37.0112ms - 200
+2025-07-02 22:56:55.564 -06:00 [INF] End processing HTTP request after 37.4045ms - 200
+2025-07-02 22:56:55.565 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/125/
+2025-07-02 22:56:55.565 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/125/
+2025-07-02 22:56:55.601 -06:00 [INF] Received HTTP response headers after 35.9332ms - 200
+2025-07-02 22:56:55.601 -06:00 [INF] End processing HTTP request after 36.0445ms - 200
+2025-07-02 22:56:55.602 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/126/
+2025-07-02 22:56:55.602 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/126/
+2025-07-02 22:56:55.641 -06:00 [INF] Received HTTP response headers after 38.5933ms - 200
+2025-07-02 22:56:55.641 -06:00 [INF] End processing HTTP request after 38.7657ms - 200
+2025-07-02 22:56:55.642 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/127/
+2025-07-02 22:56:55.642 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/127/
+2025-07-02 22:56:55.672 -06:00 [INF] Received HTTP response headers after 30.6677ms - 200
+2025-07-02 22:56:55.672 -06:00 [INF] End processing HTTP request after 30.7953ms - 200
+2025-07-02 22:56:55.673 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/128/
+2025-07-02 22:56:55.673 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/128/
+2025-07-02 22:56:55.705 -06:00 [INF] Received HTTP response headers after 31.2519ms - 200
+2025-07-02 22:56:55.705 -06:00 [INF] End processing HTTP request after 31.4518ms - 200
+2025-07-02 22:56:55.708 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/129/
+2025-07-02 22:56:55.708 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/129/
+2025-07-02 22:56:55.744 -06:00 [INF] Received HTTP response headers after 35.8105ms - 200
+2025-07-02 22:56:55.744 -06:00 [INF] End processing HTTP request after 36.0467ms - 200
+2025-07-02 22:56:55.744 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/130/
+2025-07-02 22:56:55.745 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/130/
+2025-07-02 22:56:55.776 -06:00 [INF] Received HTTP response headers after 31.1266ms - 200
+2025-07-02 22:56:55.776 -06:00 [INF] End processing HTTP request after 31.2911ms - 200
+2025-07-02 22:56:55.777 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/131/
+2025-07-02 22:56:55.777 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/131/
+2025-07-02 22:56:55.809 -06:00 [INF] Received HTTP response headers after 31.6774ms - 200
+2025-07-02 22:56:55.809 -06:00 [INF] End processing HTTP request after 31.8414ms - 200
+2025-07-02 22:56:55.811 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/132/
+2025-07-02 22:56:55.811 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/132/
+2025-07-02 22:56:55.844 -06:00 [INF] Received HTTP response headers after 33.4175ms - 200
+2025-07-02 22:56:55.844 -06:00 [INF] End processing HTTP request after 33.6285ms - 200
+2025-07-02 22:56:55.845 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/133/
+2025-07-02 22:56:55.845 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/133/
+2025-07-02 22:56:55.882 -06:00 [INF] Received HTTP response headers after 37.2491ms - 200
+2025-07-02 22:56:55.882 -06:00 [INF] End processing HTTP request after 37.3728ms - 200
+2025-07-02 22:56:55.884 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/134/
+2025-07-02 22:56:55.884 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/134/
+2025-07-02 22:56:55.917 -06:00 [INF] Received HTTP response headers after 32.606ms - 200
+2025-07-02 22:56:55.917 -06:00 [INF] End processing HTTP request after 32.7465ms - 200
+2025-07-02 22:56:55.918 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/135/
+2025-07-02 22:56:55.918 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/135/
+2025-07-02 22:56:55.950 -06:00 [INF] Received HTTP response headers after 32.2341ms - 200
+2025-07-02 22:56:55.950 -06:00 [INF] End processing HTTP request after 32.3616ms - 200
+2025-07-02 22:56:55.951 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/136/
+2025-07-02 22:56:55.951 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/136/
+2025-07-02 22:56:55.986 -06:00 [INF] Received HTTP response headers after 34.7314ms - 200
+2025-07-02 22:56:55.986 -06:00 [INF] End processing HTTP request after 35.0486ms - 200
+2025-07-02 22:56:55.989 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/137/
+2025-07-02 22:56:55.989 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/137/
+2025-07-02 22:56:56.026 -06:00 [INF] Received HTTP response headers after 36.2914ms - 200
+2025-07-02 22:56:56.026 -06:00 [INF] End processing HTTP request after 36.7583ms - 200
+2025-07-02 22:56:56.028 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/138/
+2025-07-02 22:56:56.028 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/138/
+2025-07-02 22:56:56.059 -06:00 [INF] Received HTTP response headers after 31.3097ms - 200
+2025-07-02 22:56:56.059 -06:00 [INF] End processing HTTP request after 31.5953ms - 200
+2025-07-02 22:56:56.062 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/139/
+2025-07-02 22:56:56.062 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/139/
+2025-07-02 22:56:56.097 -06:00 [INF] Received HTTP response headers after 34.8738ms - 200
+2025-07-02 22:56:56.097 -06:00 [INF] End processing HTTP request after 35.1817ms - 200
+2025-07-02 22:56:56.098 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/140/
+2025-07-02 22:56:56.098 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/140/
+2025-07-02 22:56:56.133 -06:00 [INF] Received HTTP response headers after 35.0263ms - 200
+2025-07-02 22:56:56.133 -06:00 [INF] End processing HTTP request after 35.4287ms - 200
+2025-07-02 22:56:56.136 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/141/
+2025-07-02 22:56:56.136 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/141/
+2025-07-02 22:56:56.176 -06:00 [INF] Received HTTP response headers after 39.4889ms - 200
+2025-07-02 22:56:56.176 -06:00 [INF] End processing HTTP request after 39.8133ms - 200
+2025-07-02 22:56:56.177 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/142/
+2025-07-02 22:56:56.177 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/142/
+2025-07-02 22:56:56.213 -06:00 [INF] Received HTTP response headers after 35.5603ms - 200
+2025-07-02 22:56:56.213 -06:00 [INF] End processing HTTP request after 35.9298ms - 200
+2025-07-02 22:56:56.217 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/143/
+2025-07-02 22:56:56.217 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/143/
+2025-07-02 22:56:56.251 -06:00 [INF] Received HTTP response headers after 34.0559ms - 200
+2025-07-02 22:56:56.251 -06:00 [INF] End processing HTTP request after 34.3931ms - 200
+2025-07-02 22:56:56.252 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/144/
+2025-07-02 22:56:56.252 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/144/
+2025-07-02 22:56:56.288 -06:00 [INF] Received HTTP response headers after 35.1198ms - 200
+2025-07-02 22:56:56.288 -06:00 [INF] End processing HTTP request after 35.3379ms - 200
+2025-07-02 22:56:56.288 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/145/
+2025-07-02 22:56:56.288 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/145/
+2025-07-02 22:56:56.321 -06:00 [INF] Received HTTP response headers after 32.9692ms - 200
+2025-07-02 22:56:56.321 -06:00 [INF] End processing HTTP request after 33.095ms - 200
+2025-07-02 22:56:56.322 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/146/
+2025-07-02 22:56:56.322 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/146/
+2025-07-02 22:56:56.353 -06:00 [INF] Received HTTP response headers after 31.3826ms - 200
+2025-07-02 22:56:56.353 -06:00 [INF] End processing HTTP request after 31.4905ms - 200
+2025-07-02 22:56:56.354 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/147/
+2025-07-02 22:56:56.355 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/147/
+2025-07-02 22:56:56.390 -06:00 [INF] Received HTTP response headers after 35.4996ms - 200
+2025-07-02 22:56:56.390 -06:00 [INF] End processing HTTP request after 35.6791ms - 200
+2025-07-02 22:56:56.392 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/148/
+2025-07-02 22:56:56.392 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/148/
+2025-07-02 22:56:56.426 -06:00 [INF] Received HTTP response headers after 33.642ms - 200
+2025-07-02 22:56:56.426 -06:00 [INF] End processing HTTP request after 33.8848ms - 200
+2025-07-02 22:56:56.427 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/149/
+2025-07-02 22:56:56.427 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/149/
+2025-07-02 22:56:56.460 -06:00 [INF] Received HTTP response headers after 32.9672ms - 200
+2025-07-02 22:56:56.460 -06:00 [INF] End processing HTTP request after 33.1425ms - 200
+2025-07-02 22:56:56.462 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/150/
+2025-07-02 22:56:56.462 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/150/
+2025-07-02 22:56:56.500 -06:00 [INF] Received HTTP response headers after 38.1503ms - 200
+2025-07-02 22:56:56.500 -06:00 [INF] End processing HTTP request after 38.3848ms - 200
+2025-07-02 22:56:56.501 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/151/
+2025-07-02 22:56:56.501 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/151/
+2025-07-02 22:56:56.533 -06:00 [INF] Received HTTP response headers after 32.4013ms - 200
+2025-07-02 22:56:56.533 -06:00 [INF] End processing HTTP request after 32.5603ms - 200
+2025-07-02 22:56:56.534 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/152/
+2025-07-02 22:56:56.534 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/152/
+2025-07-02 22:56:56.566 -06:00 [INF] Received HTTP response headers after 32.4183ms - 200
+2025-07-02 22:56:56.566 -06:00 [INF] End processing HTTP request after 32.5807ms - 200
+2025-07-02 22:56:56.568 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/153/
+2025-07-02 22:56:56.568 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/153/
+2025-07-02 22:56:56.602 -06:00 [INF] Received HTTP response headers after 33.9268ms - 200
+2025-07-02 22:56:56.602 -06:00 [INF] End processing HTTP request after 34.2352ms - 200
+2025-07-02 22:56:56.603 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/154/
+2025-07-02 22:56:56.603 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/154/
+2025-07-02 22:56:56.643 -06:00 [INF] Received HTTP response headers after 39.5762ms - 200
+2025-07-02 22:56:56.643 -06:00 [INF] End processing HTTP request after 40.189ms - 200
+2025-07-02 22:56:56.646 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/155/
+2025-07-02 22:56:56.646 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/155/
+2025-07-02 22:56:56.688 -06:00 [INF] Received HTTP response headers after 41.7947ms - 200
+2025-07-02 22:56:56.688 -06:00 [INF] End processing HTTP request after 42.3633ms - 200
+2025-07-02 22:56:56.689 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/156/
+2025-07-02 22:56:56.689 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/156/
+2025-07-02 22:56:56.725 -06:00 [INF] Received HTTP response headers after 36.2642ms - 200
+2025-07-02 22:56:56.725 -06:00 [INF] End processing HTTP request after 36.6454ms - 200
+2025-07-02 22:56:56.726 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/157/
+2025-07-02 22:56:56.726 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/157/
+2025-07-02 22:56:56.764 -06:00 [INF] Received HTTP response headers after 37.9393ms - 200
+2025-07-02 22:56:56.765 -06:00 [INF] End processing HTTP request after 38.2403ms - 200
+2025-07-02 22:56:56.766 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/158/
+2025-07-02 22:56:56.766 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/158/
+2025-07-02 22:56:56.797 -06:00 [INF] Received HTTP response headers after 30.9139ms - 200
+2025-07-02 22:56:56.797 -06:00 [INF] End processing HTTP request after 31.0816ms - 200
+2025-07-02 22:56:56.797 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/159/
+2025-07-02 22:56:56.797 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/159/
+2025-07-02 22:56:56.830 -06:00 [INF] Received HTTP response headers after 32.5033ms - 200
+2025-07-02 22:56:56.830 -06:00 [INF] End processing HTTP request after 32.6602ms - 200
+2025-07-02 22:56:56.830 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/160/
+2025-07-02 22:56:56.830 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/160/
+2025-07-02 22:56:56.864 -06:00 [INF] Received HTTP response headers after 34.0463ms - 200
+2025-07-02 22:56:56.864 -06:00 [INF] End processing HTTP request after 34.1963ms - 200
+2025-07-02 22:56:56.865 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/161/
+2025-07-02 22:56:56.865 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/161/
+2025-07-02 22:56:56.897 -06:00 [INF] Received HTTP response headers after 32.809ms - 200
+2025-07-02 22:56:56.898 -06:00 [INF] End processing HTTP request after 32.9268ms - 200
+2025-07-02 22:56:56.898 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/162/
+2025-07-02 22:56:56.898 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/162/
+2025-07-02 22:56:56.938 -06:00 [INF] Received HTTP response headers after 39.9398ms - 200
+2025-07-02 22:56:56.938 -06:00 [INF] End processing HTTP request after 40.0577ms - 200
+2025-07-02 22:56:56.938 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/163/
+2025-07-02 22:56:56.938 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/163/
+2025-07-02 22:56:56.981 -06:00 [INF] Received HTTP response headers after 42.9132ms - 200
+2025-07-02 22:56:56.981 -06:00 [INF] End processing HTTP request after 43.0162ms - 200
+2025-07-02 22:56:56.992 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/164/
+2025-07-02 22:56:56.992 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/164/
+2025-07-02 22:56:57.028 -06:00 [INF] Received HTTP response headers after 35.4795ms - 200
+2025-07-02 22:56:57.028 -06:00 [INF] End processing HTTP request after 35.6741ms - 200
+2025-07-02 22:56:57.029 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/165/
+2025-07-02 22:56:57.029 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/165/
+2025-07-02 22:56:57.081 -06:00 [INF] Received HTTP response headers after 52.3636ms - 200
+2025-07-02 22:56:57.081 -06:00 [INF] End processing HTTP request after 52.5955ms - 200
+2025-07-02 22:56:57.082 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/166/
+2025-07-02 22:56:57.082 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/166/
+2025-07-02 22:56:57.122 -06:00 [INF] Received HTTP response headers after 40.0298ms - 200
+2025-07-02 22:56:57.123 -06:00 [INF] End processing HTTP request after 40.2742ms - 200
+2025-07-02 22:56:57.124 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/167/
+2025-07-02 22:56:57.124 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/167/
+2025-07-02 22:56:57.165 -06:00 [INF] Received HTTP response headers after 40.7005ms - 200
+2025-07-02 22:56:57.166 -06:00 [INF] End processing HTTP request after 41.85ms - 200
+2025-07-02 22:56:57.167 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/168/
+2025-07-02 22:56:57.167 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/168/
+2025-07-02 22:56:57.205 -06:00 [INF] Received HTTP response headers after 37.2407ms - 200
+2025-07-02 22:56:57.205 -06:00 [INF] End processing HTTP request after 37.412ms - 200
+2025-07-02 22:56:57.205 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/169/
+2025-07-02 22:56:57.205 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/169/
+2025-07-02 22:56:57.251 -06:00 [INF] Received HTTP response headers after 45.3206ms - 200
+2025-07-02 22:56:57.251 -06:00 [INF] End processing HTTP request after 45.4531ms - 200
+2025-07-02 22:56:57.251 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/170/
+2025-07-02 22:56:57.251 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/170/
+2025-07-02 22:56:57.291 -06:00 [INF] Received HTTP response headers after 40.0449ms - 200
+2025-07-02 22:56:57.291 -06:00 [INF] End processing HTTP request after 40.2414ms - 200
+2025-07-02 22:56:57.293 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/171/
+2025-07-02 22:56:57.293 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/171/
+2025-07-02 22:56:57.335 -06:00 [INF] Received HTTP response headers after 41.6719ms - 200
+2025-07-02 22:56:57.335 -06:00 [INF] End processing HTTP request after 41.926ms - 200
+2025-07-02 22:56:57.357 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/172/
+2025-07-02 22:56:57.358 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/172/
+2025-07-02 22:56:57.395 -06:00 [INF] Received HTTP response headers after 37.1189ms - 200
+2025-07-02 22:56:57.395 -06:00 [INF] End processing HTTP request after 37.3658ms - 200
+2025-07-02 22:56:57.396 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/173/
+2025-07-02 22:56:57.396 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/173/
+2025-07-02 22:56:57.430 -06:00 [INF] Received HTTP response headers after 33.4692ms - 200
+2025-07-02 22:56:57.430 -06:00 [INF] End processing HTTP request after 33.613ms - 200
+2025-07-02 22:56:57.432 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/174/
+2025-07-02 22:56:57.433 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/174/
+2025-07-02 22:56:57.470 -06:00 [INF] Received HTTP response headers after 37.6496ms - 200
+2025-07-02 22:56:57.470 -06:00 [INF] End processing HTTP request after 37.8248ms - 200
+2025-07-02 22:56:57.471 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/175/
+2025-07-02 22:56:57.471 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/175/
+2025-07-02 22:56:57.509 -06:00 [INF] Received HTTP response headers after 38.3199ms - 200
+2025-07-02 22:56:57.509 -06:00 [INF] End processing HTTP request after 38.4673ms - 200
+2025-07-02 22:56:57.510 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/176/
+2025-07-02 22:56:57.510 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/176/
+2025-07-02 22:56:57.562 -06:00 [INF] Received HTTP response headers after 51.1731ms - 200
+2025-07-02 22:56:57.562 -06:00 [INF] End processing HTTP request after 51.3973ms - 200
+2025-07-02 22:56:57.562 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/177/
+2025-07-02 22:56:57.563 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/177/
+2025-07-02 22:56:57.597 -06:00 [INF] Received HTTP response headers after 34.9321ms - 200
+2025-07-02 22:56:57.598 -06:00 [INF] End processing HTTP request after 35.1404ms - 200
+2025-07-02 22:56:57.600 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/178/
+2025-07-02 22:56:57.600 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/178/
+2025-07-02 22:56:57.635 -06:00 [INF] Received HTTP response headers after 34.6619ms - 200
+2025-07-02 22:56:57.635 -06:00 [INF] End processing HTTP request after 35.1479ms - 200
+2025-07-02 22:56:57.635 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/179/
+2025-07-02 22:56:57.635 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/179/
+2025-07-02 22:56:57.669 -06:00 [INF] Received HTTP response headers after 33.0731ms - 200
+2025-07-02 22:56:57.669 -06:00 [INF] End processing HTTP request after 33.2126ms - 200
+2025-07-02 22:56:57.670 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/180/
+2025-07-02 22:56:57.670 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/180/
+2025-07-02 22:56:57.705 -06:00 [INF] Received HTTP response headers after 34.4508ms - 200
+2025-07-02 22:56:57.705 -06:00 [INF] End processing HTTP request after 34.6518ms - 200
+2025-07-02 22:56:57.706 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/181/
+2025-07-02 22:56:57.706 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/181/
+2025-07-02 22:56:57.742 -06:00 [INF] Received HTTP response headers after 36.024ms - 200
+2025-07-02 22:56:57.742 -06:00 [INF] End processing HTTP request after 36.2147ms - 200
+2025-07-02 22:56:57.743 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/182/
+2025-07-02 22:56:57.743 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/182/
+2025-07-02 22:56:57.778 -06:00 [INF] Received HTTP response headers after 34.7638ms - 200
+2025-07-02 22:56:57.778 -06:00 [INF] End processing HTTP request after 35.0129ms - 200
+2025-07-02 22:56:57.779 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/183/
+2025-07-02 22:56:57.779 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/183/
+2025-07-02 22:56:57.813 -06:00 [INF] Received HTTP response headers after 34.2312ms - 200
+2025-07-02 22:56:57.813 -06:00 [INF] End processing HTTP request after 34.3912ms - 200
+2025-07-02 22:56:57.814 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/184/
+2025-07-02 22:56:57.815 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/184/
+2025-07-02 22:56:57.850 -06:00 [INF] Received HTTP response headers after 35.2787ms - 200
+2025-07-02 22:56:57.850 -06:00 [INF] End processing HTTP request after 35.6066ms - 200
+2025-07-02 22:56:57.851 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/185/
+2025-07-02 22:56:57.851 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/185/
+2025-07-02 22:56:57.889 -06:00 [INF] Received HTTP response headers after 37.3516ms - 200
+2025-07-02 22:56:57.889 -06:00 [INF] End processing HTTP request after 37.6589ms - 200
+2025-07-02 22:56:57.890 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/186/
+2025-07-02 22:56:57.890 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/186/
+2025-07-02 22:56:57.922 -06:00 [INF] Received HTTP response headers after 32.1249ms - 200
+2025-07-02 22:56:57.922 -06:00 [INF] End processing HTTP request after 32.3343ms - 200
+2025-07-02 22:56:57.924 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/187/
+2025-07-02 22:56:57.924 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/187/
+2025-07-02 22:56:57.957 -06:00 [INF] Received HTTP response headers after 32.1452ms - 200
+2025-07-02 22:56:57.957 -06:00 [INF] End processing HTTP request after 32.4362ms - 200
+2025-07-02 22:56:57.957 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/188/
+2025-07-02 22:56:57.957 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/188/
+2025-07-02 22:56:57.992 -06:00 [INF] Received HTTP response headers after 34.8079ms - 200
+2025-07-02 22:56:57.992 -06:00 [INF] End processing HTTP request after 35.061ms - 200
+2025-07-02 22:56:57.994 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/189/
+2025-07-02 22:56:57.994 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/189/
+2025-07-02 22:56:58.028 -06:00 [INF] Received HTTP response headers after 34.5459ms - 200
+2025-07-02 22:56:58.029 -06:00 [INF] End processing HTTP request after 34.9764ms - 200
+2025-07-02 22:56:58.030 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/190/
+2025-07-02 22:56:58.030 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/190/
+2025-07-02 22:56:58.062 -06:00 [INF] Received HTTP response headers after 32.2792ms - 200
+2025-07-02 22:56:58.062 -06:00 [INF] End processing HTTP request after 32.4537ms - 200
+2025-07-02 22:56:58.062 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/191/
+2025-07-02 22:56:58.062 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/191/
+2025-07-02 22:56:58.094 -06:00 [INF] Received HTTP response headers after 31.2793ms - 200
+2025-07-02 22:56:58.094 -06:00 [INF] End processing HTTP request after 31.4104ms - 200
+2025-07-02 22:56:58.095 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/192/
+2025-07-02 22:56:58.095 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/192/
+2025-07-02 22:56:58.131 -06:00 [INF] Received HTTP response headers after 35.5171ms - 200
+2025-07-02 22:56:58.131 -06:00 [INF] End processing HTTP request after 35.7853ms - 200
+2025-07-02 22:56:58.131 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/193/
+2025-07-02 22:56:58.131 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/193/
+2025-07-02 22:56:58.164 -06:00 [INF] Received HTTP response headers after 32.6272ms - 200
+2025-07-02 22:56:58.164 -06:00 [INF] End processing HTTP request after 32.7784ms - 200
+2025-07-02 22:56:58.164 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/194/
+2025-07-02 22:56:58.164 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/194/
+2025-07-02 22:56:58.200 -06:00 [INF] Received HTTP response headers after 35.3191ms - 200
+2025-07-02 22:56:58.200 -06:00 [INF] End processing HTTP request after 35.6639ms - 200
+2025-07-02 22:56:58.201 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/195/
+2025-07-02 22:56:58.201 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/195/
+2025-07-02 22:56:58.243 -06:00 [INF] Received HTTP response headers after 41.6628ms - 200
+2025-07-02 22:56:58.243 -06:00 [INF] End processing HTTP request after 41.962ms - 200
+2025-07-02 22:56:58.244 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/196/
+2025-07-02 22:56:58.244 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/196/
+2025-07-02 22:56:58.277 -06:00 [INF] Received HTTP response headers after 33.1874ms - 200
+2025-07-02 22:56:58.277 -06:00 [INF] End processing HTTP request after 33.4086ms - 200
+2025-07-02 22:56:58.278 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/197/
+2025-07-02 22:56:58.278 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/197/
+2025-07-02 22:56:58.312 -06:00 [INF] Received HTTP response headers after 33.249ms - 200
+2025-07-02 22:56:58.312 -06:00 [INF] End processing HTTP request after 33.4418ms - 200
+2025-07-02 22:56:58.312 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/198/
+2025-07-02 22:56:58.312 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/198/
+2025-07-02 22:56:58.349 -06:00 [INF] Received HTTP response headers after 36.8592ms - 200
+2025-07-02 22:56:58.349 -06:00 [INF] End processing HTTP request after 37.0028ms - 200
+2025-07-02 22:56:58.349 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/199/
+2025-07-02 22:56:58.349 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/199/
+2025-07-02 22:56:58.384 -06:00 [INF] Received HTTP response headers after 34.2593ms - 200
+2025-07-02 22:56:58.384 -06:00 [INF] End processing HTTP request after 34.3877ms - 200
+2025-07-02 22:56:58.384 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon-species/200/
+2025-07-02 22:56:58.384 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon-species/200/
+2025-07-02 22:56:58.425 -06:00 [INF] Received HTTP response headers after 40.3803ms - 200
+2025-07-02 22:56:58.425 -06:00 [INF] End processing HTTP request after 40.5351ms - 200
+2025-07-02 22:56:58.428 -06:00 [INF] Executing JsonResult, writing value of type 'System.Linq.OrderedEnumerable`2[[<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PokemonWebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-02 22:56:58.435 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.GetSpeciesList (PokemonWebApp) in 7933.2993ms
+2025-07-02 22:56:58.435 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.GetSpeciesList (PokemonWebApp)'
+2025-07-02 22:56:58.435 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/GetSpeciesList - 200 null application/json; charset=utf-8 7941.3244ms
+2025-07-02 22:57:03.632 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/Filter?name=&species=&page=9 - null null
+2025-07-02 22:57:03.634 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.Filter (PokemonWebApp)'
+2025-07-02 22:57:03.641 -06:00 [INF] Route matched with {action = "Filter", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Filter(System.String, System.String, Int32) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:57:03.650 -06:00 [INF] Entro a GetAllPokemonAsync - "2025-07-02T22:57:03.6503709-06:00"
+2025-07-02 22:57:03.650 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T22:57:03.6505358-06:00"
+2025-07-02 22:57:03.650 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/sentret
+2025-07-02 22:57:03.650 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/sentret
+2025-07-02 22:57:03.691 -06:00 [INF] Received HTTP response headers after 40.6267ms - 200
+2025-07-02 22:57:03.691 -06:00 [INF] End processing HTTP request after 40.7756ms - 200
+2025-07-02 22:57:03.696 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/furret
+2025-07-02 22:57:03.696 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/furret
+2025-07-02 22:57:03.736 -06:00 [INF] Received HTTP response headers after 39.9921ms - 200
+2025-07-02 22:57:03.736 -06:00 [INF] End processing HTTP request after 40.1675ms - 200
+2025-07-02 22:57:03.743 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/hoothoot
+2025-07-02 22:57:03.743 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/hoothoot
+2025-07-02 22:57:03.778 -06:00 [INF] Received HTTP response headers after 34.3907ms - 200
+2025-07-02 22:57:03.778 -06:00 [INF] End processing HTTP request after 34.7009ms - 200
+2025-07-02 22:57:03.795 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/noctowl
+2025-07-02 22:57:03.795 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/noctowl
+2025-07-02 22:57:03.833 -06:00 [INF] Received HTTP response headers after 37.7357ms - 200
+2025-07-02 22:57:03.833 -06:00 [INF] End processing HTTP request after 38.2931ms - 200
+2025-07-02 22:57:03.848 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/ledyba
+2025-07-02 22:57:03.848 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/ledyba
+2025-07-02 22:57:03.883 -06:00 [INF] Received HTTP response headers after 35.5133ms - 200
+2025-07-02 22:57:03.884 -06:00 [INF] End processing HTTP request after 35.8579ms - 200
+2025-07-02 22:57:03.894 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/ledian
+2025-07-02 22:57:03.894 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/ledian
+2025-07-02 22:57:03.932 -06:00 [INF] Received HTTP response headers after 38.1617ms - 200
+2025-07-02 22:57:03.932 -06:00 [INF] End processing HTTP request after 38.4254ms - 200
+2025-07-02 22:57:03.940 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/spinarak
+2025-07-02 22:57:03.940 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/spinarak
+2025-07-02 22:57:03.973 -06:00 [INF] Received HTTP response headers after 32.4435ms - 200
+2025-07-02 22:57:03.973 -06:00 [INF] End processing HTTP request after 32.805ms - 200
+2025-07-02 22:57:03.985 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/ariados
+2025-07-02 22:57:03.985 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/ariados
+2025-07-02 22:57:04.024 -06:00 [INF] Received HTTP response headers after 38.1141ms - 200
+2025-07-02 22:57:04.024 -06:00 [INF] End processing HTTP request after 38.5482ms - 200
+2025-07-02 22:57:04.033 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/crobat
+2025-07-02 22:57:04.033 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/crobat
+2025-07-02 22:57:04.068 -06:00 [INF] Received HTTP response headers after 34.6852ms - 200
+2025-07-02 22:57:04.068 -06:00 [INF] End processing HTTP request after 35.0115ms - 200
+2025-07-02 22:57:04.076 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/chinchou
+2025-07-02 22:57:04.076 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/chinchou
+2025-07-02 22:57:04.114 -06:00 [INF] Received HTTP response headers after 37.9079ms - 200
+2025-07-02 22:57:04.115 -06:00 [INF] End processing HTTP request after 38.4688ms - 200
+2025-07-02 22:57:04.121 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/lanturn
+2025-07-02 22:57:04.121 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/lanturn
+2025-07-02 22:57:04.156 -06:00 [INF] Received HTTP response headers after 35.6413ms - 200
+2025-07-02 22:57:04.156 -06:00 [INF] End processing HTTP request after 35.8452ms - 200
+2025-07-02 22:57:04.165 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/pichu
+2025-07-02 22:57:04.165 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/pichu
+2025-07-02 22:57:04.200 -06:00 [INF] Received HTTP response headers after 35.6943ms - 200
+2025-07-02 22:57:04.200 -06:00 [INF] End processing HTTP request after 35.8488ms - 200
+2025-07-02 22:57:04.206 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/cleffa
+2025-07-02 22:57:04.207 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/cleffa
+2025-07-02 22:57:04.240 -06:00 [INF] Received HTTP response headers after 33.426ms - 200
+2025-07-02 22:57:04.240 -06:00 [INF] End processing HTTP request after 33.6243ms - 200
+2025-07-02 22:57:04.249 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/igglybuff
+2025-07-02 22:57:04.249 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/igglybuff
+2025-07-02 22:57:04.285 -06:00 [INF] Received HTTP response headers after 35.7482ms - 200
+2025-07-02 22:57:04.285 -06:00 [INF] End processing HTTP request after 35.9169ms - 200
+2025-07-02 22:57:04.293 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/togepi
+2025-07-02 22:57:04.293 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/togepi
+2025-07-02 22:57:04.325 -06:00 [INF] Received HTTP response headers after 32.2526ms - 200
+2025-07-02 22:57:04.325 -06:00 [INF] End processing HTTP request after 32.4616ms - 200
+2025-07-02 22:57:04.334 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/togetic
+2025-07-02 22:57:04.334 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/togetic
+2025-07-02 22:57:04.373 -06:00 [INF] Received HTTP response headers after 38.4316ms - 200
+2025-07-02 22:57:04.373 -06:00 [INF] End processing HTTP request after 38.634ms - 200
+2025-07-02 22:57:04.380 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/natu
+2025-07-02 22:57:04.381 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/natu
+2025-07-02 22:57:04.413 -06:00 [INF] Received HTTP response headers after 32.268ms - 200
+2025-07-02 22:57:04.413 -06:00 [INF] End processing HTTP request after 32.468ms - 200
+2025-07-02 22:57:04.422 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/xatu
+2025-07-02 22:57:04.422 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/xatu
+2025-07-02 22:57:04.456 -06:00 [INF] Received HTTP response headers after 33.8133ms - 200
+2025-07-02 22:57:04.456 -06:00 [INF] End processing HTTP request after 34.0383ms - 200
+2025-07-02 22:57:04.464 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/mareep
+2025-07-02 22:57:04.464 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/mareep
+2025-07-02 22:57:04.497 -06:00 [INF] Received HTTP response headers after 33.0991ms - 200
+2025-07-02 22:57:04.497 -06:00 [INF] End processing HTTP request after 33.278ms - 200
+2025-07-02 22:57:04.507 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/flaaffy
+2025-07-02 22:57:04.507 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/flaaffy
+2025-07-02 22:57:04.539 -06:00 [INF] Received HTTP response headers after 32.175ms - 200
+2025-07-02 22:57:04.540 -06:00 [INF] End processing HTTP request after 32.4123ms - 200
+2025-07-02 22:57:04.546 -06:00 [INF] Executing PartialViewResult, running view PokemonListPartial.
+2025-07-02 22:57:04.551 -06:00 [INF] Executed PartialViewResult - view PokemonListPartial executed in 4.6052ms.
+2025-07-02 22:57:04.553 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.Filter (PokemonWebApp) in 911.6242ms
+2025-07-02 22:57:04.553 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.Filter (PokemonWebApp)'
+2025-07-02 22:57:04.553 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/Filter?name=&species=&page=9 - 200 null text/html; charset=utf-8 922.3045ms
+2025-07-02 22:57:09.346 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/Filter?name=&species=&page=1 - null null
+2025-07-02 22:57:09.346 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.Filter (PokemonWebApp)'
+2025-07-02 22:57:09.346 -06:00 [INF] Route matched with {action = "Filter", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Filter(System.String, System.String, Int32) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:57:09.347 -06:00 [INF] Entro a GetAllPokemonAsync - "2025-07-02T22:57:09.3471019-06:00"
+2025-07-02 22:57:09.347 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T22:57:09.3471435-06:00"
+2025-07-02 22:57:09.347 -06:00 [INF] Executing PartialViewResult, running view PokemonListPartial.
+2025-07-02 22:57:09.350 -06:00 [INF] Executed PartialViewResult - view PokemonListPartial executed in 3.2796ms.
+2025-07-02 22:57:09.350 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.Filter (PokemonWebApp) in 3.9492ms
+2025-07-02 22:57:09.350 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.Filter (PokemonWebApp)'
+2025-07-02 22:57:09.351 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/Filter?name=&species=&page=1 - 200 null text/html; charset=utf-8 5.027ms
+2025-07-02 22:57:12.187 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=bulbasaur - null null
+2025-07-02 22:57:12.188 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:57:12.192 -06:00 [INF] Route matched with {action = "GetDetails", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDetails(System.String) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:57:12.221 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T22:57:12.2216098-06:00"
+2025-07-02 22:57:12.274 -06:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PokemonWebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-02 22:57:12.279 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp) in 87.1006ms
+2025-07-02 22:57:12.279 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:57:12.280 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=bulbasaur - 200 null application/json; charset=utf-8 93.5254ms
+2025-07-02 22:59:22.550 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=raticate - null null
+2025-07-02 22:59:22.551 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:59:22.551 -06:00 [INF] Route matched with {action = "GetDetails", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDetails(System.String) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:59:22.564 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T22:59:22.5639565-06:00"
+2025-07-02 22:59:22.565 -06:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PokemonWebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-02 22:59:22.565 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp) in 14.0512ms
+2025-07-02 22:59:22.566 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:59:22.566 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=raticate - 200 null application/json; charset=utf-8 16.127ms
+2025-07-02 22:59:30.242 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=pidgeot - null null
+2025-07-02 22:59:30.242 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:59:30.242 -06:00 [INF] Route matched with {action = "GetDetails", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDetails(System.String) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:59:30.243 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T22:59:30.2430726-06:00"
+2025-07-02 22:59:30.243 -06:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PokemonWebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-02 22:59:30.243 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp) in 0.4255ms
+2025-07-02 22:59:30.243 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:59:30.243 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=pidgeot - 200 null application/json; charset=utf-8 1.2763ms
+2025-07-02 22:59:34.905 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=pidgeot - null null
+2025-07-02 22:59:34.905 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:59:34.905 -06:00 [INF] Route matched with {action = "GetDetails", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDetails(System.String) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:59:34.906 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T22:59:34.9061190-06:00"
+2025-07-02 22:59:34.906 -06:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PokemonWebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-02 22:59:34.906 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp) in 0.6274ms
+2025-07-02 22:59:34.906 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:59:34.906 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=pidgeot - 200 null application/json; charset=utf-8 1.3488ms
+2025-07-02 22:59:37.472 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/Filter?name=&species=&page=18 - null null
+2025-07-02 22:59:37.472 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.Filter (PokemonWebApp)'
+2025-07-02 22:59:37.472 -06:00 [INF] Route matched with {action = "Filter", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Filter(System.String, System.String, Int32) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:59:37.473 -06:00 [INF] Entro a GetAllPokemonAsync - "2025-07-02T22:59:37.4729973-06:00"
+2025-07-02 22:59:37.473 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T22:59:37.4730914-06:00"
+2025-07-02 22:59:37.473 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/corphish
+2025-07-02 22:59:37.473 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/corphish
+2025-07-02 22:59:37.564 -06:00 [INF] Received HTTP response headers after 91.1507ms - 200
+2025-07-02 22:59:37.564 -06:00 [INF] End processing HTTP request after 91.2933ms - 200
+2025-07-02 22:59:37.609 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/crawdaunt
+2025-07-02 22:59:37.609 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/crawdaunt
+2025-07-02 22:59:37.638 -06:00 [INF] Received HTTP response headers after 28.9325ms - 200
+2025-07-02 22:59:37.638 -06:00 [INF] End processing HTTP request after 29.1447ms - 200
+2025-07-02 22:59:37.646 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/baltoy
+2025-07-02 22:59:37.646 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/baltoy
+2025-07-02 22:59:37.675 -06:00 [INF] Received HTTP response headers after 28.3992ms - 200
+2025-07-02 22:59:37.675 -06:00 [INF] End processing HTTP request after 28.6713ms - 200
+2025-07-02 22:59:37.682 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/claydol
+2025-07-02 22:59:37.683 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/claydol
+2025-07-02 22:59:37.713 -06:00 [INF] Received HTTP response headers after 30.2279ms - 200
+2025-07-02 22:59:37.713 -06:00 [INF] End processing HTTP request after 30.4243ms - 200
+2025-07-02 22:59:37.721 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/lileep
+2025-07-02 22:59:37.721 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/lileep
+2025-07-02 22:59:37.757 -06:00 [INF] Received HTTP response headers after 36.2124ms - 200
+2025-07-02 22:59:37.757 -06:00 [INF] End processing HTTP request after 36.411ms - 200
+2025-07-02 22:59:37.761 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/cradily
+2025-07-02 22:59:37.761 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/cradily
+2025-07-02 22:59:37.789 -06:00 [INF] Received HTTP response headers after 27.8546ms - 200
+2025-07-02 22:59:37.789 -06:00 [INF] End processing HTTP request after 28.0147ms - 200
+2025-07-02 22:59:37.794 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/anorith
+2025-07-02 22:59:37.794 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/anorith
+2025-07-02 22:59:37.823 -06:00 [INF] Received HTTP response headers after 28.8104ms - 200
+2025-07-02 22:59:37.823 -06:00 [INF] End processing HTTP request after 29.0031ms - 200
+2025-07-02 22:59:37.828 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/armaldo
+2025-07-02 22:59:37.828 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/armaldo
+2025-07-02 22:59:37.856 -06:00 [INF] Received HTTP response headers after 28.2583ms - 200
+2025-07-02 22:59:37.856 -06:00 [INF] End processing HTTP request after 28.4697ms - 200
+2025-07-02 22:59:37.862 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/feebas
+2025-07-02 22:59:37.862 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/feebas
+2025-07-02 22:59:37.890 -06:00 [INF] Received HTTP response headers after 28.0263ms - 200
+2025-07-02 22:59:37.890 -06:00 [INF] End processing HTTP request after 28.4034ms - 200
+2025-07-02 22:59:37.900 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/milotic
+2025-07-02 22:59:37.901 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/milotic
+2025-07-02 22:59:37.934 -06:00 [INF] Received HTTP response headers after 33.2854ms - 200
+2025-07-02 22:59:37.934 -06:00 [INF] End processing HTTP request after 33.5186ms - 200
+2025-07-02 22:59:37.939 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/castform
+2025-07-02 22:59:37.939 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/castform
+2025-07-02 22:59:37.970 -06:00 [INF] Received HTTP response headers after 31.0671ms - 200
+2025-07-02 22:59:37.970 -06:00 [INF] End processing HTTP request after 31.2253ms - 200
+2025-07-02 22:59:37.974 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/kecleon
+2025-07-02 22:59:37.974 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/kecleon
+2025-07-02 22:59:38.003 -06:00 [INF] Received HTTP response headers after 28.18ms - 200
+2025-07-02 22:59:38.003 -06:00 [INF] End processing HTTP request after 28.3766ms - 200
+2025-07-02 22:59:38.011 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/shuppet
+2025-07-02 22:59:38.011 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/shuppet
+2025-07-02 22:59:38.041 -06:00 [INF] Received HTTP response headers after 29.8595ms - 200
+2025-07-02 22:59:38.041 -06:00 [INF] End processing HTTP request after 30.0738ms - 200
+2025-07-02 22:59:38.048 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/banette
+2025-07-02 22:59:38.048 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/banette
+2025-07-02 22:59:38.075 -06:00 [INF] Received HTTP response headers after 26.653ms - 200
+2025-07-02 22:59:38.075 -06:00 [INF] End processing HTTP request after 26.8946ms - 200
+2025-07-02 22:59:38.082 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/duskull
+2025-07-02 22:59:38.082 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/duskull
+2025-07-02 22:59:38.112 -06:00 [INF] Received HTTP response headers after 30.452ms - 200
+2025-07-02 22:59:38.112 -06:00 [INF] End processing HTTP request after 30.6376ms - 200
+2025-07-02 22:59:38.119 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/dusclops
+2025-07-02 22:59:38.119 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/dusclops
+2025-07-02 22:59:38.148 -06:00 [INF] Received HTTP response headers after 29.6231ms - 200
+2025-07-02 22:59:38.148 -06:00 [INF] End processing HTTP request after 29.8365ms - 200
+2025-07-02 22:59:38.157 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/tropius
+2025-07-02 22:59:38.157 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/tropius
+2025-07-02 22:59:38.186 -06:00 [INF] Received HTTP response headers after 28.6837ms - 200
+2025-07-02 22:59:38.186 -06:00 [INF] End processing HTTP request after 28.9412ms - 200
+2025-07-02 22:59:38.192 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/chimecho
+2025-07-02 22:59:38.192 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/chimecho
+2025-07-02 22:59:38.222 -06:00 [INF] Received HTTP response headers after 30.0032ms - 200
+2025-07-02 22:59:38.223 -06:00 [INF] End processing HTTP request after 30.1746ms - 200
+2025-07-02 22:59:38.229 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/absol
+2025-07-02 22:59:38.229 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/absol
+2025-07-02 22:59:38.259 -06:00 [INF] Received HTTP response headers after 29.7555ms - 200
+2025-07-02 22:59:38.259 -06:00 [INF] End processing HTTP request after 30.007ms - 200
+2025-07-02 22:59:38.268 -06:00 [INF] Start processing HTTP request GET https://pokeapi.co/api/v2/pokemon/wynaut
+2025-07-02 22:59:38.268 -06:00 [INF] Sending HTTP request GET https://pokeapi.co/api/v2/pokemon/wynaut
+2025-07-02 22:59:38.298 -06:00 [INF] Received HTTP response headers after 30.0833ms - 200
+2025-07-02 22:59:38.298 -06:00 [INF] End processing HTTP request after 30.317ms - 200
+2025-07-02 22:59:38.300 -06:00 [INF] Executing PartialViewResult, running view PokemonListPartial.
+2025-07-02 22:59:38.302 -06:00 [INF] Executed PartialViewResult - view PokemonListPartial executed in 2.3015ms.
+2025-07-02 22:59:38.302 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.Filter (PokemonWebApp) in 830.3165ms
+2025-07-02 22:59:38.303 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.Filter (PokemonWebApp)'
+2025-07-02 22:59:38.304 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/Filter?name=&species=&page=18 - 200 null text/html; charset=utf-8 833.0486ms
+2025-07-02 22:59:42.303 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=claydol - null null
+2025-07-02 22:59:42.303 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:59:42.303 -06:00 [INF] Route matched with {action = "GetDetails", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDetails(System.String) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 22:59:42.303 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T22:59:42.3037973-06:00"
+2025-07-02 22:59:42.303 -06:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PokemonWebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-02 22:59:42.304 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp) in 0.495ms
+2025-07-02 22:59:42.304 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.GetDetails (PokemonWebApp)'
+2025-07-02 22:59:42.304 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/GetDetails?name=claydol - 200 null application/json; charset=utf-8 1.3971ms
+2025-07-02 22:59:45.789 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/ - null null
+2025-07-02 22:59:45.800 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.HomeController.Index (PokemonWebApp)'
+2025-07-02 22:59:45.801 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PokemonWebApp.Controllers.HomeController (PokemonWebApp).
+2025-07-02 22:59:45.801 -06:00 [INF] Executing ViewResult, running view Index.
+2025-07-02 22:59:45.803 -06:00 [INF] Executed ViewResult - view Index executed in 1.8949ms.
+2025-07-02 22:59:45.804 -06:00 [INF] Executed action PokemonWebApp.Controllers.HomeController.Index (PokemonWebApp) in 2.8706ms
+2025-07-02 22:59:45.804 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.HomeController.Index (PokemonWebApp)'
+2025-07-02 22:59:45.804 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/ - 200 null text/html; charset=utf-8 15.1994ms
+2025-07-02 22:59:45.867 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-02 22:59:45.869 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 2.4942ms
+2025-07-02 22:59:45.874 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/_vs/browserLink - null null
+2025-07-02 22:59:45.894 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.9149ms
+2025-07-02 23:00:05.067 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-02 23:00:05.069 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 2.384ms
+2025-07-02 23:00:15.032 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon - null null
+2025-07-02 23:00:15.034 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.Index (PokemonWebApp)'
+2025-07-02 23:00:15.034 -06:00 [INF] Route matched with {action = "Index", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Int32) on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 23:00:15.034 -06:00 [INF] Entro a accion Index del controller - "2025-07-02T23:00:15.0347774-06:00"
+2025-07-02 23:00:15.034 -06:00 [INF] Entro a GetAllPokemonAsync - "2025-07-02T23:00:15.0348167-06:00"
+2025-07-02 23:00:15.034 -06:00 [INF] Entro a setSpritePokemon - "2025-07-02T23:00:15.0348396-06:00"
+2025-07-02 23:00:15.034 -06:00 [INF] Executing ViewResult, running view Index.
+2025-07-02 23:00:15.040 -06:00 [INF] Executed ViewResult - view Index executed in 5.8674ms.
+2025-07-02 23:00:15.040 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.Index (PokemonWebApp) in 6.3707ms
+2025-07-02 23:00:15.041 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.Index (PokemonWebApp)'
+2025-07-02 23:00:15.042 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon - 200 null text/html; charset=utf-8 10.4358ms
+2025-07-02 23:00:15.104 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-02 23:00:15.106 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/_vs/browserLink - null null
+2025-07-02 23:00:15.107 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 3.107ms
+2025-07-02 23:00:15.123 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.9601ms
+2025-07-02 23:00:15.169 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7056/Pokemon/GetSpeciesList - null null
+2025-07-02 23:00:15.169 -06:00 [INF] Executing endpoint 'PokemonWebApp.Controllers.PokemonController.GetSpeciesList (PokemonWebApp)'
+2025-07-02 23:00:15.169 -06:00 [INF] Route matched with {action = "GetSpeciesList", controller = "Pokemon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSpeciesList() on controller PokemonWebApp.Controllers.PokemonController (PokemonWebApp).
+2025-07-02 23:00:15.169 -06:00 [INF] Executing JsonResult, writing value of type 'System.Linq.OrderedEnumerable`2[[<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PokemonWebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-02 23:00:15.170 -06:00 [INF] Executed action PokemonWebApp.Controllers.PokemonController.GetSpeciesList (PokemonWebApp) in 0.6983ms
+2025-07-02 23:00:15.170 -06:00 [INF] Executed endpoint 'PokemonWebApp.Controllers.PokemonController.GetSpeciesList (PokemonWebApp)'
+2025-07-02 23:00:15.170 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7056/Pokemon/GetSpeciesList - 200 null application/json; charset=utf-8 1.6077ms

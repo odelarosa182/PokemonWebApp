@@ -33,7 +33,7 @@ namespace PokemonWebApp.Controllers
             string name = string.Empty;
             _logger.LogInformation("Entro a accion Index del controller - {Time}", DateTime.Now);
             const int PageSize = 20;
-            var allPokemon = await _pokemonService.GetAllPokemonAsync(_logger);
+            var allPokemon = await _pokemonService.GetAllPokemonAsync();
 
             if (!string.IsNullOrWhiteSpace(name))
             {
@@ -43,7 +43,7 @@ namespace PokemonWebApp.Controllers
             }
 
             int totalCount = allPokemon.Count;
-            var pagedData = await _pokemonService.setSpritePokemon(_logger, allPokemon
+            var pagedData = await _pokemonService.setSpritePokemon(allPokemon
                 .Skip((page - 1) * PageSize)
                 .Take(PageSize)
                 .ToList());
@@ -65,7 +65,7 @@ namespace PokemonWebApp.Controllers
         public async Task<IActionResult> Filter(string name = "", string species = "", int page = 1)
         {
             const int PageSize = 20;
-            var allPokemon = await _pokemonService.GetAllPokemonAsync(_logger);
+            var allPokemon = await _pokemonService.GetAllPokemonAsync();
 
             if (!string.IsNullOrWhiteSpace(name))
             {
@@ -77,7 +77,7 @@ namespace PokemonWebApp.Controllers
             if (!string.IsNullOrWhiteSpace(species))
             {
                 // Obtener todos los nombres de la cadena evolutiva de la especie seleccionada
-                var evolutionNames = await _pokemonService.GetEvolutionChainPokemonNamesAsync(_logger, species);
+                var evolutionNames = await _pokemonService.GetEvolutionChainPokemonNamesAsync(species);
 
                 if (evolutionNames.Any())
                 {
@@ -92,7 +92,7 @@ namespace PokemonWebApp.Controllers
             }
 
             int totalCount = allPokemon.Count;
-            var pagedData = await _pokemonService.setSpritePokemon(_logger, allPokemon
+            var pagedData = await _pokemonService.setSpritePokemon(allPokemon
                 .Skip((page - 1) * PageSize)
                 .Take(PageSize)
                 .ToList());
@@ -109,7 +109,7 @@ namespace PokemonWebApp.Controllers
 
         public async Task<IActionResult> GetSpeciesList()
         {
-            var list = await _pokemonService.GetAllSpeciesAsync(_logger, 200);
+            var list = await _pokemonService.GetAllSpeciesAsync(200);
             var simplified = list.Select(s => new { s.Name }).OrderBy(s => s.Name);
             return Json(simplified);
         }
@@ -121,7 +121,7 @@ namespace PokemonWebApp.Controllers
         {
             var fileName = $"Pokemon-List-{DateTime.Now:yyyyMMddHHmmss}.xlsx";
             
-            byte[] excelBytes = await _excelService.GenerateExcelReportAsync(name, species, _logger, _pokemonService);
+            byte[] excelBytes = await _excelService.GenerateExcelReportAsync(name, species);
             return new FileContentResult(excelBytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
             {
                 FileDownloadName = fileName
@@ -131,7 +131,7 @@ namespace PokemonWebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> CountFiltered(string name = "", string species = "")
         {
-            var all = await _pokemonService.GetAllPokemonAsync(_logger);
+            var all = await _pokemonService.GetAllPokemonAsync();
 
             if (!string.IsNullOrWhiteSpace(name))
             {
@@ -143,7 +143,7 @@ namespace PokemonWebApp.Controllers
             if (!string.IsNullOrWhiteSpace(species))
             {
                 // Obtener todos los nombres de la cadena evolutiva de la especie seleccionada
-                var evolutionNames = await _pokemonService.GetEvolutionChainPokemonNamesAsync(_logger, species);
+                var evolutionNames = await _pokemonService.GetEvolutionChainPokemonNamesAsync(species);
 
                 if (evolutionNames.Any())
                 {
@@ -167,7 +167,7 @@ namespace PokemonWebApp.Controllers
             {
 
                 // Se genera el reporte Excel
-                var bytes = await _excelService.GenerateExcelReportAsync(request.Name, request.Species, _logger, _pokemonService);
+                var bytes = await _excelService.GenerateExcelReportAsync(request.Name, request.Species);
 
                 // Enviar por correo
                 await SendEmailWithAttachmentAsync(request.Email, "Reporte de Pokémon", "Adjunto se encuentra el archivo con el reporte filtrado.", bytes, "reporte-pokemon.xlsx");
@@ -209,7 +209,7 @@ namespace PokemonWebApp.Controllers
         {
            
 
-            var result = await _pokemonService.getDetails(_logger, name);
+            var result = await _pokemonService.getDetails(name);
 
             return Json(result);
         }

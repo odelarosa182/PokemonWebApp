@@ -2,20 +2,28 @@
 using OfficeOpenXml;
 using PokemonWebApp.Models;
 using System.IO;
+using System.Runtime.CompilerServices;
 
 namespace PokemonWebApp.Services
 {
     public class ExcelService
     {
-        public async Task<byte[]> GenerateExcelReportAsync(string name, string species, ILogger logger, PokemonService pokemonService)
+        private readonly ILogger<ExcelService> _logger;
+        private readonly PokemonService pokemonService;
+        public ExcelService(ILogger<ExcelService> logger, PokemonService _pokemonService) 
         {
-            logger.LogInformation("Generating Excel report at {Time}", DateTime.Now);
+            _logger = logger;
+            pokemonService = _pokemonService;
+        }
+        public async Task<byte[]> GenerateExcelReportAsync(string name, string species)
+        {
+            _logger.LogInformation("Generating Excel report at {Time}", DateTime.Now);
             const int PageSize = 1000; // máximo a exportar (ajustable)
             try
             {
                 ExcelPackage.License.SetNonCommercialPersonal("Orlando Ruben De La Rosa Garcia");
 
-                var allPokemon = await pokemonService.GetAllPokemonAsync(logger);
+                var allPokemon = await pokemonService.GetAllPokemonAsync();
 
                 if (!string.IsNullOrWhiteSpace(name))
                 {
@@ -29,7 +37,7 @@ namespace PokemonWebApp.Services
                 if (!string.IsNullOrWhiteSpace(species))
                 {
                     // Obtener todos los nombres de la cadena evolutiva de la especie seleccionada
-                    var evolutionNames = await pokemonService.GetEvolutionChainPokemonNamesAsync(logger, species);
+                    var evolutionNames = await pokemonService.GetEvolutionChainPokemonNamesAsync(species);
 
                     if (evolutionNames.Any())
                     {
@@ -43,7 +51,7 @@ namespace PokemonWebApp.Services
                     }
                 }
                 //Cargo las url de las imagenes de todos los pokemon antes de exportar a excel
-                allPokemon = await pokemonService.setSpritePokemon(logger, allPokemon);
+                allPokemon = await pokemonService.setSpritePokemon(allPokemon);
 
                 var exportList = allPokemon.Take(PageSize).ToList(); // evita exportar miles
 
@@ -75,7 +83,7 @@ namespace PokemonWebApp.Services
             }
             catch (Exception ex)
             {
-                logger.LogError("Error al exportar a Excel - {Time} - Error info: {Error}", DateTime.Now, ex.Message);
+                _logger.LogError("Error al exportar a Excel - {Time} - Error info: {Error}", DateTime.Now, ex.Message);
                 //Devolver un array vacío en caso de error
                 return Array.Empty<byte>();
             }
